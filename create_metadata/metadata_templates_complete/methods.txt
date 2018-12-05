@@ -1,0 +1,7 @@
+﻿Transects at multiple depths established in 1968 were photographed by divers on SCUBA and revisited by SCINI ROV in 2010. Area of each image was established by planimeter in 1968 and through the use of SCINI ROV's scaling lasers in 2010. Organisms from photos were identified to lowest possible taxon (species identification or morphology) and abundances and percent cover were recorded. More information about sponge identifications and taxonomy can be found in https://doi.org/10.1016/j.jembe.2016.05.001 Supplementary Material 2/B.
+
+NOTES:
+
+All names were used in the dataset to ensure that all data collectors identified the organisms in the same manner. Early datasets from 1968 were compromised by taxonomic uncertainty and we used nicknames for easily recognized species, and these names were published.  These are the data we used in the present paper and they had to be included as they were collected because it is not possible to go back to 1967-68 and clarify the names. This is discussed in the paper and subsequent taxonomic progress has allowed better identifications, and these are also included in the data set, but the actual comparison to the 1968 data had to be done with the original nicknames.
+
+One transect at each depth, multiple photos taken as SCUBA diver or ROV moved along transect. Each photo is a replicate for that transect, depth, and site.
