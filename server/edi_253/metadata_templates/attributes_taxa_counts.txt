@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+PhotoID	"Photo ID from SCUBA or ROV transect; 1 photo = 1 sample; ID is coded. One transect from each depth comprised of multiple images, each taken of a different position along the transect. Code:SiteYear_WaterDepth_Replicate Photo: CA=Cape Armitage; 1968 = year of data collection 1968 OR 2010 = year of data collection 2010; Second value=water depth in feet, ranges from 110 to 330; Third value = Replicate photo from transect at that particular site, year, and water depth, ranges from 1 to 35."	character				
+Species	Species name or nickname given to a particular taxa identified in the photo	character				
+Area	Areal coverage of the organism in the Species column	numeric	squareMeter			
+PctCov	Percent cover of the organism in the Species column; determined by dividing organism areal coverage by photo areal coverage and multiplying by 100	numeric	dimensionless			
+Count	Individual organism counts per photo	numeric	dimensionless		NA	Empty count. For organisms that are colonial. Organisms that have an NA for count cannot be counted individually as they form a mass or colony of interlinked organisms.

@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+PhotoID	"Photo ID from SCUBA or ROV transect; 1 photo = 1 sample; ID is coded. One transect from each depth comprised of multiple images each taken of a different position along the transect. SiteYear_WaterDepth_Replicate Photo: CA=Cape Armitage; 1968 = year of data collection 1968 OR 2010 = year of data collection 2010; Second value=water depth in feet, ranges from 110 to 330; Third value = Replicate photo from transect at that particular site, year, and water depth, ranges from 1 to 35."""	character				
+Depth	Water depth for that particular photo replicate of that depth transect	numeric	foot			
+PhotoArea	Areal coverage of the particular photo replicate	numeric	squareMeter			
+Year	Year of data collection	Date		YYYY		

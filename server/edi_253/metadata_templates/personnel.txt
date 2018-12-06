@@ -1,0 +1,11 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Paul	K	Dayton	Scripps Institution of Oceanography	pdayton@ucsd.edu		creator			
+Shannon	C	Jarrell	Scripps Institution of Oceanography	shannonjarrell@gmail.com		creator			
+Stacy	L	Kim	Moss Landing Marine Laboratories	skim@mlml.calstate.edu		creator			
+Ed	P	Parnell	Scripps Institution of Oceanography	edparnell@ucsd.edu		creator			
+Simon	F	Thrush	University of Auckland Institute of Marine Science	simon.thrush@auckland.ac.nz		creator			
+Kamille	K	Hammerstrom	Moss Landing Marine Laboratories	khammerstrom@mlml.calstate.edu	https://orcid.org/0000-0002-1177-5552	creator			
+James	J	Leichter	Scripps Institution of Oceanography	jleichter@ucsd.edu		creator			
+Paul	K	Dayton	Scripps Institution of Oceanography	pdayton@ucsd.edu		PI	LTREB: Collaborative Research: Decadal Variation in Antarctic Marine Benthic Ecosystems	NSF	ANT-0852064
+Paul	K	Dayton	Scripps Institution of Oceanography	pdayton@ucsd.edu		PI	EAGER: A Multi-decadal Record of Antarctic Benthos: Image Analysis to Maximize Data Utilization	NSF	PLR-1355533
+Paul	K	Dayton	Scripps Institution of Oceanography	pdayton@ucsd.edu		contact			
