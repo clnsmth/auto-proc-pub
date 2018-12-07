@@ -26,17 +26,17 @@ con <- ssh::ssh_connect(
 
 ssh::scp_upload(
   session = con,
-  files = c('C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_151\\data\\processed\\taxa_photos.csv',
-            'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_151\\data\\processed\\taxa_counts.csv'),
-  to = '/var/www/lter/sites/default/files/data/edi/tests/edi_151/data/processed', 
+  files = c('C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_253\\data\\taxa_photos_qcd.csv',
+            'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_253\\data\\taxa_counts_qcd.csv'),
+  to = '/var/www/lter/sites/default/files/data/edi/tests/edi_253/data', 
   verbose = F
 )
 
 ssh::scp_upload(
   session = con,
-  files = paste0('C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_151\\eml',
+  files = paste0('C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_253\\eml',
                  '/', package_id, '.xml'),
-  to = '/var/www/lter/sites/default/files/data/edi/tests/edi_151/eml',
+  to = '/var/www/lter/sites/default/files/data/edi/tests/edi_253/eml',
   verbose = F
 )
 
@@ -45,7 +45,7 @@ ssh::ssh_disconnect(con)
 # Upload to EDI ---------------------------------------------------------------
 
 EDIutils::pkg_update(
-  path = 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_151\\eml',
+  path = 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_253\\eml',
   package.id = package_id,
   environment = environment,
   user.id = usr_pasta,
