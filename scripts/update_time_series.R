@@ -1,9 +1,18 @@
 
 # Script to update and publish time series data
 
+# Load dependencies -----------------------------------------------------------
+
+suppressWarnings(library(stringr))
+suppressWarnings(library(dplyr))
+suppressWarnings(library(EDIutils))
+suppressWarnings(library(EMLassemblyline))
+suppressWarnings(library(ssh))
+suppressWarnings(library(httr))
+
 # Parameterize ----------------------------------------------------------------
 
-path_scripts <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_151\\scripts'
+path_scripts <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/scripts'
 usr_serv <- readline('Enter server user name: ')
 pass_serv <- readline('Enter server password: ')
 usr_pasta <- readline('Enter PASTA+ user name: ')

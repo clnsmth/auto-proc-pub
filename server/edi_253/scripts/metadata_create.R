@@ -5,9 +5,9 @@ message('*** CREATING EML METADATA ***')
 
 # Parameterize ----------------------------------------------------------------
 
-path_templates <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_253\\metadata_templates'
-path_data <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_253\\data'
-path_eml <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_253\\eml'
+path_templates <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/metadata_templates'
+path_data <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/data'
+path_eml <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/eml'
 file_names <- c("taxa_counts_qcd.csv", "taxa_photos_qcd.csv")
 pkg_identifier <- 'edi.253'
 environment <- 'staging'

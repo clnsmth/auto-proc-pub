@@ -32,7 +32,7 @@
 "CA1968_110_06","Leucascus leptoraphis",0.022,0.477,1,NA,NA,NA
 "CA1968_110_06","Polymastia invaginata",0.145,3.142,17,NA,NA,NA
 "CA1968_110_06","Rossella podagrosa",3.096,67.086,NA,NA,NA,NA
-"CA1968_110_06","Spikey",0.007,0.152,1,NA,NA,NA
+"CA1968_110_06","Spikey",0.007,0.152,1,"A",NA,NA
 "CA1968_110_07","Fan",0.017,0.321,1,NA,NA,NA
 "CA1968_110_07","Finger",0.019,0.359,11,NA,NA,NA
 "CA1968_110_07","Kirkpatrickia variolosa",0.014,0.265,1,NA,NA,NA
@@ -73,12 +73,12 @@
 "CA1968_120_02","Polymastia invaginata",0.03,0.813,10,NA,NA,NA
 "CA1968_120_02","Rossella podagrosa",1.772,48.009,NA,NA,NA,NA
 "CA1968_120_02","Spikey",0.052,1.409,3,NA,NA,NA
-"CA1968_120_02","Staghorn",0.142,3.847,1,NA,NA,"E"
+"CA1968_120_02","Staghorn",0.142,3.847,1,NA,NA,NA
 "CA1968_120_03","Basketball",0.142,2.623,7,NA,NA,NA
 "CA1968_120_03","Finger",0.193,3.566,16,NA,NA,NA
 "CA1968_120_03","Leucascus leptoraphis",0.023,0.425,1,NA,NA,NA
 "CA1968_120_03","Polymastia invaginata",0.041,0.757,17,NA,NA,NA
-"CA1968_120_03","Rossella podagrosa",2.544,47.001,NA,"B",NA,NA
+"CA1968_120_03","Rossella podagrosa",2.544,47.001,NA,NA,NA,NA
 "CA1968_120_03","Staghorn",0.032,0.591,1,NA,NA,NA
 "CA1968_120_04","Basketball",0.027,0.841,5,NA,NA,NA
 "CA1968_120_04","Bryozoa",0.03,0.934,NA,NA,NA,NA
@@ -119,10 +119,10 @@
 "CA1968_120_09","Leucascus leptoraphis",0.003,0.068,1,NA,NA,NA
 "CA1968_120_09","Polymastia invaginata",0.006,0.136,5,NA,NA,NA
 "CA1968_120_09","Rossella podagrosa",0.974,22,NA,NA,NA,NA
-"CA1968_120_09","Staghorn",0.388,8.764,3,NA,NA,NA
+"CA1968_120_09","Staghorn",0.388,8.764,3,"A",NA,NA
 "CA1968_120_10","Basketball",0.057,1.207,3,NA,NA,NA
 "CA1968_120_10","Finger",0.133,2.817,29,NA,NA,NA
-"CA1968_120_10","Leucascus leptoraphis",0.006,0.127,1,NA,NA,NA
+"CA1968_120_10","Leucascus leptoraphis",0.006,0.127,1,"A",NA,NA
 "CA1968_120_10","Polymastia invaginata",0.025,0.529,5,NA,NA,NA
 "CA1968_120_10","Rossella podagrosa",3.258,68.998,NA,NA,NA,NA
 "CA1968_120_10","Spikey",0.013,0.275,1,NA,NA,NA
@@ -139,7 +139,7 @@
 "CA1968_130_02","Dendrilla antarctica",0.043,0.872,1,NA,NA,NA
 "CA1968_130_02","Finger",0.003,0.061,3,NA,NA,NA
 "CA1968_130_02","Polymastia invaginata",0.03,0.609,8,NA,NA,NA
-"CA1968_130_02","Rossella podagrosa",3.5,70.992,NA,NA,NA,"E"
+"CA1968_130_02","Rossella podagrosa",3.5,70.992,NA,NA,NA,NA
 "CA1968_130_02","Spikey",0.001,0.02,3,NA,NA,NA
 "CA1968_130_02","Volcano",0.13,2.637,1,NA,NA,NA
 "CA1968_130_03","Basketball",0.012,0.313,1,NA,NA,NA
@@ -165,7 +165,7 @@
 "CA1968_130_06","Basketball",0.079,1.343,7,NA,NA,NA
 "CA1968_130_06","Bryozoa",0.447,7.599,NA,NA,NA,NA
 "CA1968_130_06","Dendrilla antarctica",0.009,0.153,1,NA,NA,NA
-"CA1968_130_06","Finger",0.148,2.516,23,"A",NA,NA
+"CA1968_130_06","Finger",0.148,2.516,23,NA,NA,NA
 "CA1968_130_06","Leucascus leptoraphis",0.009,0.153,1,NA,NA,NA
 "CA1968_130_06","Polymastia invaginata",0.003,0.051,3,NA,NA,NA
 "CA1968_130_06","Rossella podagrosa",2.176,36.994,NA,NA,NA,NA
@@ -244,7 +244,7 @@
 "CA1968_130_16","Volcano",0.151,6.785,1,NA,NA,NA
 "CA1968_130_17","Basketball",0.057,2.305,1,NA,NA,NA
 "CA1968_130_17","Finger",0.122,4.933,19,NA,NA,NA
-"CA1968_130_17","Polymastia invaginata",0.031,1.253,4,"A",NA,NA
+"CA1968_130_17","Polymastia invaginata",0.031,1.253,4,NA,NA,NA
 "CA1968_130_17","Rossella podagrosa",0.94,38.009,NA,NA,NA,NA
 "CA1968_130_17","Volcano",0.365,14.759,1,NA,NA,NA
 "CA1968_140_01","Bryozoa",0.205,9.279,NA,NA,NA,NA
@@ -254,7 +254,7 @@
 "CA1968_140_01","Spikey",0.062,2.806,3,NA,NA,NA
 "CA1968_140_01","Staghorn",0.071,3.214,1,NA,NA,NA
 "CA1968_140_02","Basketball",0.078,4.484,2,NA,NA,NA
-"CA1968_140_02","Bryozoa",0.084,4.829,NA,NA,NA,NA
+"CA1968_140_02","Bryozoa",0.084,4.829,NA,NA,NA,"E"
 "CA1968_140_02","Finger",0.007,0.402,3,NA,NA,NA
 "CA1968_140_02","Polymastia invaginata",0.06,3.449,9,NA,NA,NA
 "CA1968_140_02","Rossella podagrosa",0.191,10.98,NA,NA,NA,NA
@@ -276,9 +276,9 @@
 "CA1968_140_05","Bryozoa",0.16,8.986,NA,NA,NA,NA
 "CA1968_140_05","Leucascus leptoraphis",0.017,0.955,1,NA,NA,NA
 "CA1968_140_05","Polymastia invaginata",0.038,2.134,3,NA,NA,NA
-"CA1968_140_05","Rossella podagrosa",0.232,13.029,NA,NA,NA,"E"
+"CA1968_140_05","Rossella podagrosa",0.232,13.029,NA,NA,NA,NA
 "CA1968_140_05","Spikey",0.045,2.527,2,NA,NA,NA
-"CA1968_140_06","Basketball",0.071,5.062,2,NA,"C",NA
+"CA1968_140_06","Basketball",0.071,5.062,2,NA,NA,NA
 "CA1968_140_06","Bryozoa",0.245,17.468,NA,NA,NA,NA
 "CA1968_140_06","Polymastia invaginata",0.015,1.069,2,NA,NA,NA
 "CA1968_140_06","Rossella podagrosa",0.8,57.037,NA,NA,NA,NA
@@ -298,7 +298,7 @@
 "CA1968_140_08","Rossella podagrosa",0.518,31.027,NA,NA,NA,NA
 "CA1968_140_08","Spikey",0.034,2.037,3,NA,NA,NA
 "CA1968_140_09","Basketball",0.145,6.78,8,NA,NA,NA
-"CA1968_140_09","Bryozoa",0.097,4.536,NA,NA,"C",NA
+"CA1968_140_09","Bryozoa",0.097,4.536,NA,NA,NA,NA
 "CA1968_140_09","Rossella podagrosa",0.128,5.986,NA,NA,NA,NA
 "CA1968_140_09","Spikey",0.068,3.18,4,NA,NA,NA
 "CA1968_140_09","Staghorn",0.062,2.899,1,NA,NA,NA
@@ -374,11 +374,11 @@
 "CA1968_140_20","Mycale acerata",0.258,9.489,1,NA,NA,NA
 "CA1968_140_20","Rossella podagrosa",1.849,68.003,NA,NA,NA,NA
 "CA1968_140_20","Spikey",0.062,2.28,3,NA,NA,NA
-"CA1968_140_20","Volcano",0.079,2.905,1,NA,NA,NA
+"CA1968_140_20","Volcano",0.079,2.905,1,NA,"D",NA
 "CA1968_140_21","Basketball",0.221,6.239,10,NA,NA,NA
-"CA1968_140_21","Dendrilla antarctica",0.273,7.707,2,NA,NA,NA
+"CA1968_140_21","Dendrilla antarctica",0.273,7.707,2,"B",NA,NA
 "CA1968_140_21","Finger",0.029,0.819,2,NA,NA,NA
-"CA1968_140_21","Leucascus leptoraphis",0.133,3.755,1,NA,"C",NA
+"CA1968_140_21","Leucascus leptoraphis",0.133,3.755,1,"B",NA,NA
 "CA1968_140_21","Mycale acerata",0.37,10.446,1,NA,NA,NA
 "CA1968_140_21","Rossella podagrosa",0.674,19.028,NA,NA,NA,NA
 "CA1968_140_22","Basketball",0.181,5.815,11,NA,NA,NA
@@ -424,7 +424,7 @@
 "CA1968_140_29","Basketball",0.344,15.783,12,NA,NA,NA
 "CA1968_140_29","Mycale acerata",0.059,2.707,1,NA,NA,NA
 "CA1968_140_29","Rossella podagrosa",1.787,81.988,NA,NA,NA,NA
-"CA1968_140_29","Spikey",0.014,0.642,2,NA,NA,NA
+"CA1968_140_29","Spikey",0.014,0.642,2,"A",NA,NA
 "CA1968_140_30","Basketball",0.122,5.359,6,NA,NA,NA
 "CA1968_140_30","Bryozoa",0.149,6.545,NA,NA,NA,NA
 "CA1968_140_30","Leucascus leptoraphis",0.002,0.088,1,NA,NA,NA
@@ -446,10 +446,10 @@
 "CA1968_150_01","Rossella podagrosa",0.577,37.013,NA,NA,NA,NA
 "CA1968_150_01","Sphaerotylus antarcticus",0.036,2.309,4,NA,NA,NA
 "CA1968_150_01","Spikey",0.09,5.773,5,NA,NA,NA
-"CA1968_150_01","Volcano",0.082,5.26,1,NA,NA,NA
+"CA1968_150_01","Volcano",0.082,5.26,1,NA,NA,"E"
 "CA1968_150_02","Basketball",0.062,2.769,3,NA,NA,NA
 "CA1968_150_02","Bryozoa",0.119,5.314,NA,NA,NA,NA
-"CA1968_150_02","Finger",0.007,0.313,2,NA,"C",NA
+"CA1968_150_02","Finger",0.007,0.313,2,NA,NA,NA
 "CA1968_150_02","Mycale acerata",0.022,0.982,1,NA,NA,NA
 "CA1968_150_02","Rossella podagrosa",0.941,42.024,NA,NA,NA,NA
 "CA1968_150_02","Sphaerotylus antarcticus",0.48,21.436,11,NA,NA,NA
@@ -507,18 +507,18 @@
 "CA1968_150_08","Spikey",0.047,2.178,2,NA,NA,NA
 "CA1968_150_08","Staghorn",0.014,0.649,2,NA,NA,NA
 "CA1968_150_08","Volcano",0.089,4.124,1,NA,NA,NA
-"CA1968_150_09","Basketball",0.089,4.192,4,NA,NA,NA
+"CA1968_150_09","Basketball",0.089,4.192,4,NA,"C",NA
 "CA1968_150_09","Bryozoa",0.069,3.25,NA,NA,NA,NA
 "CA1968_150_09","Finger",0.006,0.283,1,NA,NA,NA
 "CA1968_150_09","Kirkpatrickia coulmani",0.002,0.094,1,NA,NA,NA
 "CA1968_150_09","Kirkpatrickia variolosa",0.012,0.565,1,NA,NA,NA
-"CA1968_150_09","Leucascus leptoraphis",0.015,0.707,1,NA,NA,NA
+"CA1968_150_09","Leucascus leptoraphis",0.015,0.707,1,"B",NA,NA
 "CA1968_150_09","Pink Hemigellius sp",0.015,0.707,1,NA,NA,NA
 "CA1968_150_09","Rossella podagrosa",1.019,48,NA,NA,NA,NA
 "CA1968_150_09","Spikey",0.068,3.203,10,NA,NA,NA
 "CA1968_150_10","Basketball",0.1,3.295,3,NA,NA,NA
 "CA1968_150_10","Bryozoa",0.049,1.615,NA,NA,NA,NA
-"CA1968_150_10","Finger",0.014,0.461,3,NA,NA,NA
+"CA1968_150_10","Finger",0.014,0.461,3,NA,"D",NA
 "CA1968_150_10","Kirkpatrickia coulmani",0.011,0.362,1,NA,NA,NA
 "CA1968_150_10","Rossella podagrosa",2.216,73.017,NA,NA,NA,NA
 "CA1968_150_10","Spikey",0.027,0.89,3,NA,NA,NA
@@ -540,7 +540,7 @@
 "CA1968_150_13","Basketball",0.108,2.131,6,NA,NA,NA
 "CA1968_150_13","Finger",0.029,0.572,8,NA,NA,NA
 "CA1968_150_13","Isodictya erinacea",0.029,0.572,3,NA,NA,NA
-"CA1968_150_13","Rossella podagrosa",0.963,18.999,NA,"A",NA,NA
+"CA1968_150_13","Rossella podagrosa",0.963,18.999,NA,NA,NA,NA
 "CA1968_150_13","Spikey",0.048,0.947,4,NA,NA,NA
 "CA1968_150_13","Staghorn",0.019,0.375,1,NA,NA,NA
 "CA1968_150_13","Volcano",1.673,33.007,6,NA,NA,NA
@@ -571,8 +571,8 @@
 "CA1968_150_17","Finger",0.036,1.255,7,NA,NA,NA
 "CA1968_150_17","Rossella podagrosa",0.259,9.026,NA,NA,NA,NA
 "CA1968_150_17","Spikey",0.072,2.509,6,NA,NA,NA
-"CA1968_150_17","Volcano",0.187,6.517,1,NA,NA,NA
-"CA1968_150_18","Basketball",0.261,9.446,7,NA,NA,"E"
+"CA1968_150_17","Volcano",0.187,6.517,1,"B",NA,NA
+"CA1968_150_18","Basketball",0.261,9.446,7,NA,NA,NA
 "CA1968_150_18","Bryozoa",0.108,3.909,NA,NA,NA,NA
 "CA1968_150_18","Finger",0.074,2.678,13,NA,NA,NA
 "CA1968_150_18","Rossella podagrosa",0.111,4.017,NA,NA,NA,NA
@@ -619,7 +619,7 @@
 "CA1968_150_24","Volcano",0.161,6.716,2,NA,NA,NA
 "CA1968_150_25","Basketball",0.115,6.067,5,NA,NA,NA
 "CA1968_150_25","Bryozoa",0.177,9.338,NA,NA,NA,NA
-"CA1968_150_25","Finger",0.006,0.317,1,NA,NA,NA
+"CA1968_150_25","Finger",0.006,0.317,1,NA,"C",NA
 "CA1968_150_25","Leucascus leptoraphis",0.035,1.846,1,NA,NA,NA
 "CA1968_150_25","Polymastia invaginata",0.015,0.791,3,NA,NA,NA
 "CA1968_150_25","Rossella podagrosa",0.314,16.566,NA,NA,NA,NA
@@ -713,10 +713,10 @@
 "CA1968_160_02","Rossella podagrosa",1.43,41.008,NA,NA,NA,NA
 "CA1968_160_02","Spikey",0.085,2.438,5,NA,NA,NA
 "CA1968_160_02","Volcano",0.146,4.187,1,NA,NA,NA
-"CA1968_160_03","Basketball",0.271,7.814,6,NA,NA,NA
+"CA1968_160_03","Basketball",0.271,7.814,6,NA,"C",NA
 "CA1968_160_03","Bryozoa",0.187,5.392,NA,NA,NA,NA
 "CA1968_160_03","Finger",0.017,0.49,4,NA,NA,NA
-"CA1968_160_03","Mycale acerata",0.1,2.883,2,NA,"D",NA
+"CA1968_160_03","Mycale acerata",0.1,2.883,2,"B",NA,NA
 "CA1968_160_03","Polymastia invaginata",0.151,4.354,8,NA,NA,NA
 "CA1968_160_03","Rossella podagrosa",1.075,30.995,NA,NA,NA,NA
 "CA1968_160_03","Spikey",0.095,2.739,4,NA,NA,NA
@@ -775,7 +775,7 @@
 "CA1968_160_11","Bryozoa",0.092,2.963,NA,NA,NA,NA
 "CA1968_160_11","Pink Isodictya setifera",0.018,0.58,1,NA,NA,NA
 "CA1968_160_11","Polymastia invaginata",0.035,1.127,3,NA,NA,NA
-"CA1968_160_11","Rossella podagrosa",2.204,70.989,NA,"A",NA,NA
+"CA1968_160_11","Rossella podagrosa",2.204,70.989,NA,NA,"C",NA
 "CA1968_160_11","Spikey",0.103,3.318,6,NA,NA,NA
 "CA1968_160_11","Volcano",0.341,10.983,3,NA,NA,NA
 "CA1968_160_12","Basketball",0.083,4.083,3,NA,NA,NA
@@ -813,11 +813,11 @@
 "CA1968_160_16","Polymastia invaginata",0.025,1.113,2,NA,NA,NA
 "CA1968_160_16","Rossella podagrosa",0.198,8.818,NA,NA,NA,NA
 "CA1968_160_16","Sphaerotylus antarcticus",0.073,3.251,1,NA,NA,NA
-"CA1968_160_16","Spikey",0.095,4.231,2,NA,NA,NA
+"CA1968_160_16","Spikey",0.095,4.231,2,NA,NA,"F"
 "CA1968_160_16","Volcano",0.074,3.296,1,NA,NA,NA
 "CA1968_160_17","Basketball",0.053,2.005,2,NA,NA,NA
 "CA1968_160_17","Bryozoa",0.409,15.471,NA,NA,NA,NA
-"CA1968_160_17","Polymastia invaginata",0.126,4.766,5,NA,NA,"E"
+"CA1968_160_17","Polymastia invaginata",0.126,4.766,5,NA,NA,NA
 "CA1968_160_17","Rossella podagrosa",0.872,32.984,NA,NA,NA,NA
 "CA1968_160_17","Sphaerotylus antarcticus",0.015,0.567,1,NA,NA,NA
 "CA1968_160_17","Spikey",0.164,6.203,5,NA,NA,NA
@@ -875,7 +875,7 @@
 "CA1968_180_04","Staghorn",0.01,0.939,1,NA,NA,NA
 "CA1968_180_04","Volcano",0.052,4.882,1,NA,NA,NA
 "CA1968_180_05","Basketball",0.055,1.75,10,NA,NA,NA
-"CA1968_180_05","Finger",0.019,0.605,2,NA,"D",NA
+"CA1968_180_05","Finger",0.019,0.605,2,NA,NA,NA
 "CA1968_180_05","Mycale acerata",0.055,1.75,1,NA,NA,NA
 "CA1968_180_05","Rossella podagrosa",2.325,73.988,NA,NA,NA,NA
 "CA1968_180_05","Staghorn",0.021,0.668,2,NA,NA,NA
@@ -885,7 +885,7 @@
 "CA1968_180_06","Finger",0.069,2.912,9,NA,NA,NA
 "CA1968_180_06","Rossella podagrosa",1.92,81.019,NA,NA,NA,NA
 "CA1968_180_06","Spikey",0.026,1.097,6,NA,NA,NA
-"CA1968_180_06","Staghorn",0.039,1.646,1,NA,"C",NA
+"CA1968_180_06","Staghorn",0.039,1.646,1,NA,NA,NA
 "CA1968_180_06","Volcano",0.102,4.304,3,NA,NA,NA
 "CA1968_180_07","Basketball",0.036,1.093,5,NA,NA,NA
 "CA1968_180_07","Finger",0.079,2.399,10,NA,NA,NA
@@ -906,12 +906,12 @@
 "CA1968_180_09","Staghorn",0.01,0.414,1,NA,NA,NA
 "CA1968_180_09","Volcano",0.008,0.331,1,NA,NA,NA
 "CA1968_180_10","Basketball",0.042,1.238,8,NA,NA,NA
-"CA1968_180_10","Finger",0.046,1.356,4,NA,NA,NA
+"CA1968_180_10","Finger",0.046,1.356,4,NA,"C",NA
 "CA1968_180_10","Rossella podagrosa",2.307,67.989,NA,NA,NA,NA
 "CA1968_180_10","Spikey",0.014,0.413,3,NA,NA,NA
 "CA1968_180_10","Staghorn",0.074,2.181,3,NA,NA,NA
 "CA2010_110_01","Basketball",0.016,1.86,5,NA,NA,NA
-"CA2010_110_01","Bryozoa",0.025,2.907,NA,NA,NA,NA
+"CA2010_110_01","Bryozoa",0.025,2.907,NA,NA,NA,"F"
 "CA2010_110_01","Polymastia invaginata",0.005,0.581,1,NA,NA,NA
 "CA2010_110_01","Rossella podagrosa",0.476,55.349,NA,NA,NA,NA
 "CA2010_110_01","Spikey",0.005,0.581,3,NA,NA,NA
@@ -920,7 +920,7 @@
 "CA2010_110_02","Polymastia invaginata",0.006,0.571,2,NA,NA,NA
 "CA2010_110_02","Rossella podagrosa",0.365,34.729,NA,NA,NA,NA
 "CA2010_110_02","Spikey",0.009,0.856,3,NA,NA,NA
-"CA2010_110_02","Staghorn",0.043,4.091,2,NA,NA,NA
+"CA2010_110_02","Staghorn",0.043,4.091,2,NA,"D",NA
 "CA2010_110_03","Basketball",0.015,1.738,2,NA,NA,NA
 "CA2010_110_03","Fan",0.006,0.695,1,NA,NA,NA
 "CA2010_110_03","Finger",0.014,1.622,5,NA,NA,NA
@@ -928,7 +928,7 @@
 "CA2010_110_03","Rossella podagrosa",0.192,22.248,NA,NA,NA,NA
 "CA2010_110_03","Spikey",0.008,0.927,2,NA,NA,NA
 "CA2010_110_04","Fan",0.005,0.768,1,NA,NA,NA
-"CA2010_110_04","Finger",0.007,1.075,3,NA,NA,NA
+"CA2010_110_04","Finger",0.007,1.075,3,"A",NA,NA
 "CA2010_110_04","Leucascus leptoraphis",0.015,2.304,1,NA,NA,NA
 "CA2010_110_04","Polymastia invaginata",0.006,0.922,1,NA,NA,NA
 "CA2010_110_04","Rossella podagrosa",0.129,19.816,NA,NA,NA,NA
@@ -939,7 +939,7 @@
 "CA2010_110_05","Isodictya setifera",0.012,0.804,1,NA,NA,NA
 "CA2010_110_05","Polymastia invaginata",0.009,0.603,2,NA,NA,NA
 "CA2010_110_05","Rossella podagrosa",0.667,44.675,NA,NA,NA,NA
-"CA2010_110_05","Staghorn",0.038,2.545,4,NA,"C",NA
+"CA2010_110_05","Staghorn",0.038,2.545,4,NA,NA,NA
 "CA2010_110_06","Bryozoa",0.179,12.111,NA,NA,NA,NA
 "CA2010_110_06","Finger",0.012,0.812,3,NA,NA,NA
 "CA2010_110_06","Polymastia invaginata",0.012,0.812,2,NA,NA,NA
@@ -964,15 +964,15 @@
 "CA2010_130_01","Rossella podagrosa",0.744,31.781,NA,NA,NA,NA
 "CA2010_130_01","Spikey",0.014,0.598,3,NA,NA,NA
 "CA2010_130_01","Volcano",0.092,3.93,2,NA,NA,NA
-"CA2010_130_02","Basketball",0.012,0.624,3,"A",NA,NA
+"CA2010_130_02","Basketball",0.012,0.624,3,NA,NA,NA
 "CA2010_130_02","Finger",0.072,3.744,3,NA,NA,NA
 "CA2010_130_02","Isodictya erinacea",0.012,0.624,4,NA,NA,NA
 "CA2010_130_02","Rossella podagrosa",0.571,29.693,NA,NA,NA,NA
 "CA2010_130_02","Spikey",0.012,0.624,4,NA,NA,NA
-"CA2010_130_02","Staghorn",0.031,1.612,1,"B",NA,NA
+"CA2010_130_02","Staghorn",0.031,1.612,1,NA,NA,NA
 "CA2010_130_03","Basketball",0.044,3.589,4,NA,NA,NA
 "CA2010_130_03","Finger",0.068,5.546,7,NA,NA,NA
-"CA2010_130_03","Isodictya erinacea",0.014,1.142,3,NA,NA,NA
+"CA2010_130_03","Isodictya erinacea",0.014,1.142,3,"B",NA,NA
 "CA2010_130_03","Kirkpatrickia coulmani",0.01,0.816,1,NA,NA,NA
 "CA2010_130_03","Rossella podagrosa",0.564,46.003,NA,NA,NA,NA
 "CA2010_130_03","Spikey",0.011,0.897,4,NA,NA,NA
@@ -985,7 +985,7 @@
 "CA2010_130_05","Kirkpatrickia coulmani",0.012,0.327,1,NA,NA,NA
 "CA2010_130_05","Rossella podagrosa",1.373,37.381,NA,NA,NA,NA
 "CA2010_130_05","Spikey",0.036,0.98,5,NA,NA,NA
-"CA2010_130_05","Volcano",0.258,7.024,1,NA,NA,NA
+"CA2010_130_05","Volcano",0.258,7.024,1,"B",NA,NA
 "CA2010_130_06","Basketball",0.028,2.632,3,NA,NA,NA
 "CA2010_130_06","Bryozoa",0.063,5.921,NA,NA,NA,NA
 "CA2010_130_06","Fan",0.038,3.571,2,NA,NA,NA
@@ -1019,13 +1019,13 @@
 "CA2010_140_02","Bryozoa",0.246,8.471,NA,NA,NA,NA
 "CA2010_140_02","Fan",0.005,0.172,1,NA,NA,NA
 "CA2010_140_02","Finger",0.133,4.58,14,NA,NA,NA
-"CA2010_140_02","Rossella podagrosa",1.004,34.573,NA,NA,NA,NA
+"CA2010_140_02","Rossella podagrosa",1.004,34.573,NA,"A",NA,NA
 "CA2010_140_02","Spikey",0.046,1.584,10,NA,NA,NA
 "CA2010_140_03","Basketball",0.078,2.608,6,NA,NA,NA
 "CA2010_140_03","Bryozoa",0.243,8.124,NA,NA,NA,NA
 "CA2010_140_03","Finger",0.042,1.404,7,NA,NA,NA
 "CA2010_140_03","Mycale acerata",0.006,0.201,1,NA,NA,NA
-"CA2010_140_03","Polymastia invaginata",0.019,0.635,2,"A",NA,NA
+"CA2010_140_03","Polymastia invaginata",0.019,0.635,2,NA,NA,NA
 "CA2010_140_03","Rossella podagrosa",0.822,27.482,NA,NA,NA,NA
 "CA2010_140_03","Sphaerotylus antarcticus",0.029,0.97,1,NA,NA,NA
 "CA2010_140_03","Spikey",0.033,1.103,7,NA,NA,NA
@@ -1098,11 +1098,11 @@
 "CA2010_150_02","Bryozoa",0.032,2.317,NA,NA,NA,NA
 "CA2010_150_02","Bryozoa and Hydrozoa patch",0.298,21.343,NA,NA,NA,NA
 "CA2010_150_02","Finger",0.004,0.274,1,NA,NA,NA
-"CA2010_150_02","Polymastia invaginata",0.05,3.61,5,NA,"D",NA
+"CA2010_150_02","Polymastia invaginata",0.05,3.61,5,NA,NA,NA
 "CA2010_150_02","Rossella podagrosa",0.146,10.431,NA,NA,NA,NA
 "CA2010_150_02","Spikey",0.037,2.66,3,NA,NA,NA
 "CA2010_150_02","Staghorn",0.096,6.89,3,NA,NA,NA
-"CA2010_150_03","Bryozoa",0.32,32.677,NA,"B",NA,NA
+"CA2010_150_03","Bryozoa",0.32,32.677,NA,NA,NA,NA
 "CA2010_150_03","Finger",0.008,0.846,2,NA,NA,NA
 "CA2010_150_03","Mycale acerata",0.005,0.496,1,NA,NA,NA
 "CA2010_150_03","Polymastia invaginata",0.001,0.06,1,NA,NA,NA
@@ -1110,7 +1110,7 @@
 "CA2010_150_03","Spikey",0.024,2.412,9,NA,NA,NA
 "CA2010_150_03","Staghorn",0.051,5.189,2,NA,NA,NA
 "CA2010_150_04","Basketball",0.005,0.295,2,NA,NA,NA
-"CA2010_150_04","Bryozoa",0.023,1.358,NA,NA,NA,NA
+"CA2010_150_04","Bryozoa",0.023,1.358,NA,"B",NA,NA
 "CA2010_150_04","Finger",0.127,7.497,3,NA,NA,NA
 "CA2010_150_04","Rossella podagrosa",0.372,21.96,NA,NA,NA,NA
 "CA2010_150_04","Spikey",0.022,1.299,6,NA,NA,NA
@@ -1128,7 +1128,7 @@
 "CA2010_150_06","Volcano",0.034,1.57,1,NA,NA,NA
 "CA2010_150_07","Basketball",0.031,0.925,5,NA,NA,NA
 "CA2010_150_07","Bryozoa",0.686,20.478,NA,NA,NA,NA
-"CA2010_150_07","Finger",0.079,2.358,4,"B",NA,NA
+"CA2010_150_07","Finger",0.079,2.358,4,NA,NA,NA
 "CA2010_150_07","Leucascus leptoraphis",0.05,1.493,1,NA,NA,NA
 "CA2010_150_07","Polymastia invaginata",0.047,1.403,3,NA,NA,NA
 "CA2010_150_07","Rossella podagrosa",0.067,2,NA,NA,NA,NA
@@ -1149,12 +1149,12 @@
 "CA2010_150_10","Basketball",0.051,3.238,4,NA,NA,NA
 "CA2010_150_10","Bryozoa",0.189,12,NA,NA,NA,NA
 "CA2010_150_10","Finger",0.114,7.238,1,NA,NA,NA
-"CA2010_150_10","Hydrozoa",0.031,1.968,NA,NA,NA,"F"
+"CA2010_150_10","Hydrozoa",0.031,1.968,NA,NA,NA,NA
 "CA2010_150_10","Isodictya erinacea",0.002,0.127,1,NA,NA,NA
 "CA2010_150_10","Polymastia invaginata",0.008,0.508,2,NA,NA,NA
 "CA2010_150_10","Rossella podagrosa",0.196,12.444,NA,NA,NA,NA
 "CA2010_150_10","Volcano",0.192,12.19,1,NA,NA,NA
-"CA2010_160_01","Basketball",0.048,4.672,14,NA,"D",NA
+"CA2010_160_01","Basketball",0.048,4.672,14,NA,NA,NA
 "CA2010_160_01","Bryozoa",0.472,46.106,NA,NA,NA,NA
 "CA2010_160_01","Finger",0.005,0.526,2,NA,NA,NA
 "CA2010_160_01","Polymastia invaginata",0.011,1.027,3,NA,NA,NA
@@ -1194,7 +1194,7 @@
 "CA2010_160_05","Volcano",0.027,1.514,1,NA,NA,NA
 "CA2010_160_06","Basketball",0.019,0.967,4,NA,NA,NA
 "CA2010_160_06","Bryozoa",0.847,43.66,NA,NA,NA,NA
-"CA2010_160_06","Dendrilla antarctica",0.093,4.794,1,NA,NA,NA
+"CA2010_160_06","Dendrilla antarctica",0.093,4.794,1,NA,"D",NA
 "CA2010_160_06","Fan",0.004,0.206,1,NA,NA,NA
 "CA2010_160_06","Rossella podagrosa",1.052,54.227,NA,NA,NA,NA
 "CA2010_160_06","Spikey",0.007,0.361,3,NA,NA,NA
@@ -1275,7 +1275,7 @@
 "CA2010_180_04","Spikey",0.066,3.752,4,NA,NA,NA
 "CA2010_180_04","Volcano",0.025,1.421,2,NA,NA,NA
 "CA2010_180_05","Basketball",0.072,1.913,5,NA,NA,NA
-"CA2010_180_05","Bryozoa",0.877,23.306,NA,NA,NA,NA
+"CA2010_180_05","Bryozoa",0.877,23.306,NA,NA,"C",NA
 "CA2010_180_05","Finger",0.135,3.588,8,NA,NA,NA
 "CA2010_180_05","Kirkpatrickia variolosa",0.04,1.063,1,NA,NA,NA
 "CA2010_180_05","Rossella podagrosa",0.229,6.086,NA,NA,NA,NA
@@ -1285,7 +1285,7 @@
 "CA2010_180_06","Basketball",0.018,0.983,3,NA,NA,NA
 "CA2010_180_06","Bryozoa",0.781,42.631,NA,NA,NA,NA
 "CA2010_180_06","Dendrilla antarctica",0.016,0.873,1,NA,NA,NA
-"CA2010_180_06","Finger",0.032,1.747,2,NA,NA,"F"
+"CA2010_180_06","Finger",0.032,1.747,2,NA,NA,NA
 "CA2010_180_06","Kirkpatrickia variolosa",0.013,0.71,1,NA,NA,NA
 "CA2010_180_06","Polymastia invaginata",0.031,1.692,1,NA,NA,NA
 "CA2010_180_06","Rossella podagrosa",0.058,3.166,NA,NA,NA,NA
@@ -1307,7 +1307,7 @@
 "CA2010_190_02","Polymastia invaginata",0.014,0.628,2,NA,NA,NA
 "CA2010_190_02","Spikey",0.061,2.83,16,NA,NA,NA
 "CA2010_190_02","Volcano",0.381,17.716,3,NA,NA,NA
-"CA2010_190_03","Basketball",0.075,3.725,4,NA,NA,NA
+"CA2010_190_03","Basketball",0.075,3.725,4,NA,"C",NA
 "CA2010_190_03","Bryozoa",0.677,33.637,NA,NA,NA,NA
 "CA2010_190_03","Finger",0.004,0.215,1,NA,NA,NA
 "CA2010_190_03","Mycale acerata",0,0.004,1,NA,NA,NA
@@ -1324,7 +1324,7 @@
 "CA2010_190_04","Staghorn",0.016,0.393,2,NA,NA,NA
 "CA2010_190_05","Basketball",0.015,0.536,2,NA,NA,NA
 "CA2010_190_05","Bryozoa",1.098,39.2,NA,NA,NA,NA
-"CA2010_190_05","Dendrilla antarctica",0.003,0.107,1,NA,NA,NA
+"CA2010_190_05","Dendrilla antarctica",0.003,0.107,1,"B",NA,NA
 "CA2010_190_05","Fan",0.028,1,1,NA,NA,NA
 "CA2010_190_05","Finger",0.045,1.607,5,NA,NA,NA
 "CA2010_190_05","Polymastia invaginata",0.068,2.428,4,NA,NA,NA
@@ -1332,7 +1332,7 @@
 "CA2010_190_06","Bryozoa",0.983,42.189,NA,NA,NA,NA
 "CA2010_190_06","Polymastia invaginata",0.021,0.901,1,NA,NA,NA
 "CA2010_190_06","Spikey",0.011,0.472,2,NA,NA,NA
-"CA2010_190_06","Volcano",0.07,3.004,1,NA,NA,NA
+"CA2010_190_06","Volcano",0.07,3.004,1,"A",NA,NA
 "CA2010_190_07","Bryozoa",0.477,27.716,NA,NA,NA,NA
 "CA2010_190_07","Finger",0.025,1.453,4,NA,NA,NA
 "CA2010_190_07","Mycale acerata",0.215,12.493,2,NA,NA,NA
@@ -1347,7 +1347,7 @@
 "CA2010_190_09","Bryozoa",1.517,50.77,NA,NA,NA,NA
 "CA2010_190_09","Finger",0.101,3.38,5,NA,NA,NA
 "CA2010_190_09","Leucascus leptoraphis",0.127,4.25,1,NA,NA,NA
-"CA2010_190_09","Polymastia invaginata",0.055,1.841,3,NA,"C",NA
+"CA2010_190_09","Polymastia invaginata",0.055,1.841,3,NA,NA,NA
 "CA2010_190_09","Staghorn",0.011,0.368,1,NA,NA,NA
 "CA2010_200_01","Basketball",0.048,2.459,8,NA,NA,NA
 "CA2010_200_01","Bryozoa",0.716,36.939,NA,NA,NA,NA
@@ -1377,7 +1377,7 @@
 "CA2010_200_05","Bryozoa",0.898,25.577,NA,NA,NA,NA
 "CA2010_200_05","Finger",0.052,1.481,2,NA,NA,NA
 "CA2010_200_05","Mycale acerata",0.106,3.019,1,NA,NA,NA
-"CA2010_200_05","Polymastia invaginata",0.052,1.481,3,NA,"C",NA
+"CA2010_200_05","Polymastia invaginata",0.052,1.481,3,NA,NA,NA
 "CA2010_200_05","Rossella podagrosa",0.084,2.392,NA,NA,NA,NA
 "CA2010_200_05","Spikey",0.022,0.627,5,NA,NA,NA
 "CA2010_200_05","Volcano",0.296,8.431,2,NA,NA,NA
@@ -1400,20 +1400,20 @@
 "CA2010_200_08","Leucascus leptoraphis",0.11,2.627,1,NA,NA,NA
 "CA2010_200_08","Polymastia invaginata",0.027,0.645,1,NA,NA,NA
 "CA2010_200_08","Rossella podagrosa",0.088,2.102,NA,NA,NA,NA
-"CA2010_200_08","Volcano",0.011,0.263,1,NA,"D",NA
+"CA2010_200_08","Volcano",0.011,0.263,1,NA,NA,NA
 "CA2010_200_09","Bryozoa",2.069,56.763,NA,NA,NA,NA
 "CA2010_200_09","Finger",0.207,5.679,2,NA,NA,NA
 "CA2010_200_09","Polymastia invaginata",0.064,1.756,3,NA,NA,NA
 "CA2010_200_09","Volcano",0.644,17.668,3,NA,NA,NA
 "CA2010_200_10","Basketball",0.012,0.804,2,NA,NA,NA
 "CA2010_200_10","Bryozoa",0.766,51.722,NA,NA,NA,NA
-"CA2010_200_10","Finger",0.005,0.338,1,NA,NA,"F"
+"CA2010_200_10","Finger",0.005,0.338,1,NA,NA,NA
 "CA2010_200_10","Isodictya setifera",0.004,0.27,1,NA,NA,NA
 "CA2010_200_10","Leucascus leptoraphis",0.01,0.675,1,NA,NA,NA
 "CA2010_200_10","Mycale acerata",0.176,11.884,1,NA,NA,NA
 "CA2010_200_10","Spikey",0.001,0.068,1,NA,NA,NA
 "CA2010_200_10","Staghorn",0.003,0.203,1,NA,NA,NA
-"CA2010_210_01","Basketball",0.009,1.294,2,NA,NA,NA
+"CA2010_210_01","Basketball",0.009,1.294,2,NA,"D",NA
 "CA2010_210_01","Bryozoa and Hydrozoa patch",0.32,44.902,NA,NA,NA,NA
 "CA2010_210_01","Polymastia invaginata",0.001,0.111,1,NA,NA,NA
 "CA2010_210_01","Staghorn",0.004,0.616,1,NA,NA,NA
@@ -1421,7 +1421,7 @@
 "CA2010_210_02","Bryozoa",0.75,61.405,NA,NA,NA,NA
 "CA2010_210_02","Finger",0.036,2.962,1,NA,NA,NA
 "CA2010_210_02","Mycale acerata",0.01,0.794,1,NA,NA,NA
-"CA2010_210_02","Polymastia invaginata",0.026,2.144,3,NA,NA,NA
+"CA2010_210_02","Polymastia invaginata",0.026,2.144,3,"A",NA,"F"
 "CA2010_210_02","Spikey",0.006,0.482,1,NA,NA,NA
 "CA2010_210_03","Basketball",0.053,1.653,4,NA,NA,NA
 "CA2010_210_03","Bryozoa",0.964,29.842,NA,NA,NA,NA
@@ -1430,7 +1430,7 @@
 "CA2010_210_03","Rossella podagrosa",0.026,0.811,NA,NA,NA,NA
 "CA2010_210_03","Sphaerotylus antarcticus",0.009,0.29,1,NA,NA,NA
 "CA2010_210_03","Spikey",0.042,1.294,13,NA,NA,NA
-"CA2010_220_01","Bryozoa",0.294,54.222,NA,NA,"C",NA
+"CA2010_220_01","Bryozoa",0.294,54.222,NA,NA,NA,NA
 "CA2010_220_01","Finger",0.006,1.135,1,NA,NA,NA
 "CA2010_220_01","Polymastia invaginata",0.023,4.32,4,NA,NA,NA
 "CA2010_220_01","Rossella podagrosa",0.029,5.44,NA,NA,NA,NA
@@ -1449,7 +1449,7 @@
 "CA2010_230_02","Polymastia invaginata",0.006,0.549,2,NA,NA,NA
 "CA2010_230_02","Rossella podagrosa",0.007,0.649,NA,NA,NA,NA
 "CA2010_230_02","Spikey",0.023,2.163,11,NA,NA,NA
-"CA2010_230_02","Volcano",0.146,13.619,1,NA,NA,"F"
+"CA2010_230_02","Volcano",0.146,13.619,1,NA,NA,NA
 "CA2010_230_03","Basketball",0.008,0.565,3,NA,NA,NA
 "CA2010_230_03","Bryozoa",0.172,12.064,NA,NA,NA,NA
 "CA2010_230_03","Bryozoa and Hydrozoa patch",0.009,0.668,NA,NA,NA,NA
@@ -1471,7 +1471,7 @@
 "CA2010_240_02","Spikey",0.002,0.12,2,NA,NA,NA
 "CA2010_240_02","Staghorn",0.008,0.466,1,NA,NA,NA
 "CA2010_240_02","Volcano",0.025,1.466,2,NA,NA,NA
-"CA2010_240_03","Bryozoa",0.066,17.82,NA,NA,"C",NA
+"CA2010_240_03","Bryozoa",0.066,17.82,NA,NA,NA,NA
 "CA2010_240_04","Bryozoa",0.294,11.094,NA,NA,NA,NA
 "CA2010_240_04","Finger",0.089,3.358,4,NA,NA,NA
 "CA2010_240_04","Polymastia invaginata",0.066,2.491,4,NA,NA,NA
@@ -1512,15 +1512,15 @@
 "CA2010_260_02","Sphaerotylus antarcticus",0.001,0.055,1,NA,NA,NA
 "CA2010_260_02","Spikey",0.019,1.308,5,NA,NA,NA
 "CA2010_260_02","Volcano",0.139,9.605,3,NA,NA,NA
-"CA2010_260_03","Basketball",0.006,0.293,3,"A",NA,NA
+"CA2010_260_03","Basketball",0.006,0.293,3,NA,NA,NA
 "CA2010_260_03","Bryozoa",0.386,19.75,NA,NA,NA,NA
 "CA2010_260_03","Dendrilla antarctica",0.012,0.592,4,NA,NA,NA
 "CA2010_260_03","Finger",0.009,0.461,3,NA,NA,NA
 "CA2010_260_03","Polymastia invaginata",0.024,1.207,3,NA,NA,NA
-"CA2010_260_03","Rossella podagrosa",0.008,0.431,NA,NA,NA,NA
+"CA2010_260_03","Rossella podagrosa",0.008,0.431,NA,NA,NA,"E"
 "CA2010_260_03","Sphaerotylus antarcticus",0.004,0.192,1,NA,NA,NA
 "CA2010_260_03","Spikey",0.026,1.308,10,NA,NA,NA
-"CA2010_270_01","Bryozoa",0.015,0.481,NA,NA,NA,NA
+"CA2010_270_01","Bryozoa",0.015,0.481,NA,NA,"C",NA
 "CA2010_270_01","Bryozoa and Hydrozoa patch",1.687,53.669,NA,NA,NA,NA
 "CA2010_270_01","Finger",0.073,2.318,5,NA,NA,NA
 "CA2010_270_01","Hydrozoa",0.088,2.807,NA,NA,NA,NA
@@ -1534,7 +1534,7 @@
 "CA2010_270_02","Polymastia invaginata",0.075,2.696,3,NA,NA,NA
 "CA2010_270_02","Spikey",0.018,0.629,5,NA,NA,NA
 "CA2010_270_02","Staghorn",0.068,2.416,1,NA,NA,NA
-"CA2010_270_03","Basketball",0.052,6.369,4,NA,NA,NA
+"CA2010_270_03","Basketball",0.052,6.369,4,NA,"D",NA
 "CA2010_270_03","Bryozoa",0.098,12.011,NA,NA,NA,NA
 "CA2010_270_03","Bryozoa and Hydrozoa patch",0.169,20.651,NA,NA,NA,NA
 "CA2010_270_03","Finger",0.024,2.92,2,NA,NA,NA
@@ -1562,7 +1562,7 @@
 "CA2010_290_01","Sphaerotylus antarcticus",0.002,0.254,1,NA,NA,NA
 "CA2010_290_01","Spikey",0.001,0.143,1,NA,NA,NA
 "CA2010_290_02","Basketball",0.018,0.404,1,NA,NA,NA
-"CA2010_290_02","Bryozoa",0.263,5.897,NA,NA,NA,NA
+"CA2010_290_02","Bryozoa",0.263,5.897,NA,NA,NA,"F"
 "CA2010_290_02","Finger",0.057,1.268,2,NA,NA,NA
 "CA2010_290_02","Polymastia invaginata",0.037,0.828,3,NA,NA,NA
 "CA2010_290_02","Sphaerotylus antarcticus",0.005,0.116,1,NA,NA,NA
@@ -1592,7 +1592,7 @@
 "CA2010_310_01","Polymastia invaginata",0.015,0.734,1,NA,NA,NA
 "CA2010_310_01","Sphaerotylus antarcticus",0.002,0.109,1,NA,NA,NA
 "CA2010_310_01","Spikey",0.064,3.155,8,NA,NA,NA
-"CA2010_310_01","Volcano",0.22,10.838,3,"B",NA,NA
+"CA2010_310_01","Volcano",0.22,10.838,3,NA,NA,NA
 "CA2010_310_02","Basketball",0.003,0.155,2,NA,NA,NA
 "CA2010_310_02","Bryozoa",0.322,18.674,NA,NA,NA,NA
 "CA2010_310_02","Finger",0.135,7.826,1,NA,NA,NA
@@ -1620,7 +1620,7 @@
 "CA2010_320_03","Basketball",0.01,1.388,4,NA,NA,NA
 "CA2010_320_03","Bryozoa",0.095,13.893,NA,NA,NA,NA
 "CA2010_320_03","Dendrilla antarctica",0.005,0.736,4,NA,NA,NA
-"CA2010_320_03","Finger",0.004,0.642,1,"A",NA,NA
+"CA2010_320_03","Finger",0.004,0.642,1,NA,NA,NA
 "CA2010_320_03","Leucascus leptoraphis",0.041,5.933,1,NA,NA,NA
 "CA2010_320_03","Polymastia invaginata",0.008,1.14,4,NA,NA,NA
 "CA2010_320_03","Rossella podagrosa",0.02,2.906,NA,NA,NA,NA
@@ -1644,7 +1644,7 @@
 "CA2010_330_03","Finger",0.054,4.365,1,NA,NA,NA
 "CA2010_330_03","Polymastia invaginata",0.028,2.212,1,NA,NA,NA
 "CA2010_330_03","Spikey",0.053,4.229,7,NA,NA,NA
-"CA2010_330_03","Volcano",0.04,3.236,1,NA,NA,"E"
+"CA2010_330_03","Volcano",0.04,3.236,1,NA,NA,NA
 "CA2018_110_01","Basketball",0.016,1.86,5,NA,NA,NA
 "CA2018_110_01","Bryozoa",0.025,2.907,NA,NA,NA,NA
 "CA2018_110_01","Polymastia invaginata",0.005,0.581,1,NA,NA,NA
@@ -1676,7 +1676,7 @@
 "CA2018_110_05","Rossella podagrosa",0.667,44.675,NA,NA,NA,NA
 "CA2018_110_05","Staghorn",0.038,2.545,4,NA,NA,NA
 "CA2018_110_06","Bryozoa",0.179,12.111,NA,NA,NA,NA
-"CA2018_110_06","Finger",0.012,0.812,3,NA,NA,NA
+"CA2018_110_06","Finger",0.012,0.812,3,NA,NA,"E"
 "CA2018_110_06","Polymastia invaginata",0.012,0.812,2,NA,NA,NA
 "CA2018_110_06","Rossella podagrosa",0.425,28.755,NA,NA,NA,NA
 "CA2018_110_06","Spikey",0.015,1.015,4,NA,NA,NA
@@ -1685,7 +1685,7 @@
 "CA2018_110_07","Finger",0.158,9.931,6,NA,NA,NA
 "CA2018_110_07","Leucascus leptoraphis",0.028,1.76,1,NA,NA,NA
 "CA2018_110_07","Rossella podagrosa",0.449,28.221,NA,NA,NA,NA
-"CA2018_110_07","Sphaerotylus antarcticus",0.012,0.754,1,NA,NA,NA
+"CA2018_110_07","Sphaerotylus antarcticus",0.012,0.754,1,NA,NA,"E"
 "CA2018_110_07","Spikey",0.021,1.32,4,NA,NA,NA
 "CA2018_110_08","Basketball",0.02,1.747,2,NA,NA,NA
 "CA2018_110_08","Finger",0.135,11.79,10,NA,NA,NA
@@ -1698,9 +1698,9 @@
 "CA2018_130_01","Polymastia invaginata",0.013,0.555,2,NA,NA,NA
 "CA2018_130_01","Rossella podagrosa",0.744,31.781,NA,NA,NA,NA
 "CA2018_130_01","Spikey",0.014,0.598,3,NA,NA,NA
-"CA2018_130_01","Volcano",0.092,3.93,2,NA,NA,"F"
+"CA2018_130_01","Volcano",0.092,3.93,2,NA,NA,NA
 "CA2018_130_02","Basketball",0.012,0.624,3,NA,NA,NA
-"CA2018_130_02","Finger",0.072,3.744,3,NA,"D",NA
+"CA2018_130_02","Finger",0.072,3.744,3,NA,NA,NA
 "CA2018_130_02","Isodictya erinacea",0.012,0.624,4,NA,NA,NA
 "CA2018_130_02","Rossella podagrosa",0.571,29.693,NA,NA,NA,NA
 "CA2018_130_02","Spikey",0.012,0.624,4,NA,NA,NA
@@ -1729,7 +1729,7 @@
 "CA2018_130_06","Spikey",0.004,0.414,3,NA,NA,NA
 "CA2018_130_07","Basketball",0.019,1.068,1,NA,NA,NA
 "CA2018_130_07","Bryozoa",0.261,14.671,NA,NA,NA,NA
-"CA2018_130_07","Finger",0.084,4.722,7,NA,NA,NA
+"CA2018_130_07","Finger",0.084,4.722,7,NA,"C",NA
 "CA2018_130_07","Rossella podagrosa",0.726,40.809,NA,NA,NA,NA
 "CA2018_130_07","Spikey",0.012,0.675,3,NA,NA,NA
 "CA2018_130_07","Volcano",0.034,1.911,1,NA,NA,NA
@@ -1777,10 +1777,10 @@
 "CA2018_140_05","Volcano",0.12,2.64,1,NA,NA,NA
 "CA2018_140_06","Basketball",0.01,0.32,1,NA,NA,NA
 "CA2018_140_06","Bryozoa",0.123,3.932,NA,NA,NA,NA
-"CA2018_140_06","Finger",0.116,3.708,3,"B",NA,NA
+"CA2018_140_06","Finger",0.116,3.708,3,NA,NA,NA
 "CA2018_140_06","Mycale acerata",0.003,0.091,2,NA,NA,NA
 "CA2018_140_06","Polymastia invaginata",0.005,0.16,1,NA,NA,NA
-"CA2018_140_06","Rossella podagrosa",1.37,43.798,NA,NA,NA,NA
+"CA2018_140_06","Rossella podagrosa",1.37,43.798,NA,"B",NA,NA
 "CA2018_140_06","Spikey",0.005,0.156,3,NA,NA,NA
 "CA2018_140_06","Volcano",0.229,7.321,3,NA,NA,NA
 "CA2018_140_07","Basketball",0.037,1.878,4,NA,NA,NA
@@ -1800,13 +1800,13 @@
 "CA2018_140_08","Spikey",0.039,1.096,10,NA,NA,NA
 "CA2018_140_08","Volcano",0.056,1.573,2,NA,NA,NA
 "CA2018_140_09","Basketball",0.034,1.39,4,NA,NA,NA
-"CA2018_140_09","Bryozoa",0.164,6.705,NA,NA,NA,"F"
+"CA2018_140_09","Bryozoa",0.164,6.705,NA,NA,NA,NA
 "CA2018_140_09","Finger",0.03,1.226,9,NA,NA,NA
-"CA2018_140_09","Isodictya erinacea",0.002,0.082,1,NA,NA,NA
+"CA2018_140_09","Isodictya erinacea",0.002,0.082,1,NA,NA,"F"
 "CA2018_140_09","Mycale acerata",0.016,0.654,1,NA,NA,NA
 "CA2018_140_09","Polymastia invaginata",0.007,0.286,1,NA,NA,NA
 "CA2018_140_09","Rossella podagrosa",0.432,17.661,NA,NA,NA,NA
-"CA2018_140_09","Sphaerotylus antarcticus",0.012,0.491,1,NA,NA,NA
+"CA2018_140_09","Sphaerotylus antarcticus",0.012,0.491,1,NA,"D",NA
 "CA2018_140_09","Spikey",0.049,1.988,15,NA,NA,NA
 "CA2018_140_09","Volcano",0.052,2.126,3,NA,NA,NA
 "CA2018_140_10","Basketball",0.01,0.463,4,NA,NA,NA
@@ -1817,7 +1817,7 @@
 "CA2018_140_10","Rossella podagrosa",0.411,19.037,NA,NA,NA,NA
 "CA2018_140_10","Spikey",0.079,3.647,15,NA,NA,NA
 "CA2018_140_11","Basketball",0.032,1.575,5,NA,NA,NA
-"CA2018_140_11","Bryozoa",0.325,15.994,NA,NA,NA,NA
+"CA2018_140_11","Bryozoa",0.325,15.994,NA,NA,NA,"E"
 "CA2018_140_11","Finger",0.022,1.083,5,NA,NA,NA
 "CA2018_140_11","Hydrozoa",0.206,10.138,NA,NA,NA,NA
 "CA2018_140_11","Rossella podagrosa",0.214,10.531,NA,NA,NA,NA
@@ -1827,16 +1827,16 @@
 "CA2018_150_01","Bryozoa and Hydrozoa patch",1.193,47.297,NA,NA,NA,NA
 "CA2018_150_01","Finger",0.017,0.666,1,NA,NA,NA
 "CA2018_150_01","Polymastia invaginata",0.005,0.202,4,NA,NA,NA
-"CA2018_150_01","Rossella podagrosa",0.128,5.064,NA,NA,NA,"E"
+"CA2018_150_01","Rossella podagrosa",0.128,5.064,NA,NA,NA,NA
 "CA2018_150_01","Spikey",0.055,2.165,17,NA,NA,NA
 "CA2018_150_02","Basketball",0.015,1.063,3,NA,NA,NA
 "CA2018_150_02","Bryozoa",0.032,2.317,NA,NA,NA,NA
 "CA2018_150_02","Bryozoa and Hydrozoa patch",0.298,21.343,NA,NA,NA,NA
-"CA2018_150_02","Finger",0.004,0.274,1,NA,NA,NA
+"CA2018_150_02","Finger",0.004,0.274,1,NA,NA,"F"
 "CA2018_150_02","Polymastia invaginata",0.05,3.61,5,NA,NA,NA
 "CA2018_150_02","Rossella podagrosa",0.146,10.431,NA,NA,NA,NA
 "CA2018_150_02","Spikey",0.037,2.66,3,NA,NA,NA
-"CA2018_150_02","Staghorn",0.096,6.89,3,NA,"D",NA
+"CA2018_150_02","Staghorn",0.096,6.89,3,NA,NA,NA
 "CA2018_150_03","Bryozoa",0.32,32.677,NA,NA,NA,NA
 "CA2018_150_03","Finger",0.008,0.846,2,NA,NA,NA
 "CA2018_150_03","Mycale acerata",0.005,0.496,1,NA,NA,NA
@@ -1851,9 +1851,9 @@
 "CA2018_150_04","Spikey",0.022,1.299,6,NA,NA,NA
 "CA2018_150_04","Staghorn",0.02,1.181,1,NA,NA,NA
 "CA2018_150_05","Basketball",0.036,1.731,3,NA,NA,NA
-"CA2018_150_05","Finger",0.139,6.683,7,NA,NA,NA
+"CA2018_150_05","Finger",0.139,6.683,7,NA,NA,"E"
 "CA2018_150_05","Polymastia invaginata",0.062,2.981,5,NA,NA,NA
-"CA2018_150_05","Rossella podagrosa",0.164,7.885,NA,NA,"D",NA
+"CA2018_150_05","Rossella podagrosa",0.164,7.885,NA,NA,NA,NA
 "CA2018_150_05","Spikey",0.017,0.817,4,NA,NA,NA
 "CA2018_150_05","Volcano",0.1,4.808,3,NA,NA,NA
 "CA2018_150_06","Basketball",0.026,1.201,2,NA,NA,NA
@@ -1866,7 +1866,7 @@
 "CA2018_150_07","Finger",0.079,2.358,4,NA,NA,NA
 "CA2018_150_07","Leucascus leptoraphis",0.05,1.493,1,NA,NA,NA
 "CA2018_150_07","Polymastia invaginata",0.047,1.403,3,NA,NA,NA
-"CA2018_150_07","Rossella podagrosa",0.067,2,NA,NA,NA,"E"
+"CA2018_150_07","Rossella podagrosa",0.067,2,NA,NA,NA,NA
 "CA2018_150_07","Spikey",0.012,0.358,2,NA,NA,NA
 "CA2018_150_07","Volcano",0.151,4.507,1,NA,NA,NA
 "CA2018_150_08","Basketball",0.015,0.539,2,NA,NA,NA
@@ -1912,7 +1912,7 @@
 "CA2018_160_03","Rossella podagrosa",0.027,3.831,NA,NA,NA,NA
 "CA2018_160_03","Sphaerotylus antarcticus",0.002,0.35,2,NA,NA,NA
 "CA2018_160_03","Spikey",0.013,1.909,6,NA,NA,NA
-"CA2018_160_03","Volcano",0.004,0.586,1,NA,NA,NA
+"CA2018_160_03","Volcano",0.004,0.586,1,"A",NA,NA
 "CA2018_160_04","Basketball",0.013,0.685,1,NA,NA,NA
 "CA2018_160_04","Bryozoa",0.425,22.392,NA,NA,NA,NA
 "CA2018_160_04","Polymastia invaginata",0.015,0.79,2,NA,NA,NA
@@ -1942,8 +1942,8 @@
 "CA2018_160_07","Mycale acerata",0.105,7.895,1,NA,NA,NA
 "CA2018_160_07","Polymastia invaginata",0.01,0.752,3,NA,NA,NA
 "CA2018_160_07","Spikey",0.023,1.728,6,NA,NA,NA
-"CA2018_160_07","Volcano",0.075,5.639,1,NA,NA,NA
-"CA2018_160_08","Basketball",0.001,0.105,1,"B",NA,NA
+"CA2018_160_07","Volcano",0.075,5.639,1,NA,NA,"F"
+"CA2018_160_08","Basketball",0.001,0.105,1,NA,NA,NA
 "CA2018_160_08","Bryozoa",0.408,42.993,NA,NA,NA,NA
 "CA2018_160_08","Finger",0.003,0.316,1,NA,NA,NA
 "CA2018_160_08","Rossella podagrosa",0.108,11.38,NA,NA,NA,NA
@@ -1964,7 +1964,7 @@
 "CA2018_160_10","Volcano",0.045,2.722,1,NA,NA,NA
 "CA2018_170_01","Basketball",0.004,0.243,3,NA,NA,NA
 "CA2018_170_01","Bryozoa",0.499,29.086,NA,NA,NA,NA
-"CA2018_170_01","Finger",0.013,0.782,1,NA,NA,"E"
+"CA2018_170_01","Finger",0.013,0.782,1,NA,NA,NA
 "CA2018_170_01","Polymastia invaginata",0.024,1.413,5,NA,NA,NA
 "CA2018_170_01","Rossella podagrosa",0.051,3.001,NA,NA,NA,NA
 "CA2018_170_01","Spikey",0.034,1.99,16,NA,NA,NA
@@ -1994,7 +1994,7 @@
 "CA2018_180_01","Rossella podagrosa",0.311,10.961,NA,NA,NA,NA
 "CA2018_180_01","Spikey",0.005,0.19,1,NA,NA,NA
 "CA2018_180_02","Basketball",0.028,1.342,3,NA,NA,NA
-"CA2018_180_02","Bryozoa",1.295,61.258,NA,NA,NA,NA
+"CA2018_180_02","Bryozoa",1.295,61.258,NA,NA,NA,"E"
 "CA2018_180_02","Finger",0.014,0.647,2,NA,NA,NA
 "CA2018_180_02","Polymastia invaginata",0.025,1.182,2,NA,NA,NA
 "CA2018_180_02","Rossella podagrosa",0.122,5.773,NA,NA,NA,NA
@@ -2015,9 +2015,9 @@
 "CA2018_180_05","Kirkpatrickia variolosa",0.04,1.063,1,NA,NA,NA
 "CA2018_180_05","Rossella podagrosa",0.229,6.086,NA,NA,NA,NA
 "CA2018_180_05","Spikey",0.058,1.541,5,NA,NA,NA
-"CA2018_180_05","Staghorn",0.079,2.099,1,NA,NA,NA
+"CA2018_180_05","Staghorn",0.079,2.099,1,NA,NA,"F"
 "CA2018_180_05","Volcano",0.048,1.276,3,NA,NA,NA
-"CA2018_180_06","Basketball",0.018,0.983,3,NA,NA,NA
+"CA2018_180_06","Basketball",0.018,0.983,3,NA,"C",NA
 "CA2018_180_06","Bryozoa",0.781,42.631,NA,NA,NA,NA
 "CA2018_180_06","Dendrilla antarctica",0.016,0.873,1,NA,NA,NA
 "CA2018_180_06","Finger",0.032,1.747,2,NA,NA,NA
@@ -2037,11 +2037,11 @@
 "CA2018_190_01","Polymastia invaginata",0.003,0.201,3,NA,NA,NA
 "CA2018_190_01","Rossella podagrosa",0.094,5.719,NA,NA,NA,NA
 "CA2018_190_01","Spikey",0.01,0.614,3,NA,NA,NA
-"CA2018_190_02","Bryozoa",0.47,21.832,NA,"A",NA,NA
+"CA2018_190_02","Bryozoa",0.47,21.832,NA,NA,NA,NA
 "CA2018_190_02","Isodictya erinacea",0.009,0.423,2,NA,NA,NA
 "CA2018_190_02","Polymastia invaginata",0.014,0.628,2,NA,NA,NA
 "CA2018_190_02","Spikey",0.061,2.83,16,NA,NA,NA
-"CA2018_190_02","Volcano",0.381,17.716,3,NA,NA,NA
+"CA2018_190_02","Volcano",0.381,17.716,3,NA,"D",NA
 "CA2018_190_03","Basketball",0.075,3.725,4,NA,NA,NA
 "CA2018_190_03","Bryozoa",0.677,33.637,NA,NA,NA,NA
 "CA2018_190_03","Finger",0.004,0.215,1,NA,NA,NA
@@ -2063,7 +2063,7 @@
 "CA2018_190_05","Fan",0.028,1,1,NA,NA,NA
 "CA2018_190_05","Finger",0.045,1.607,5,NA,NA,NA
 "CA2018_190_05","Polymastia invaginata",0.068,2.428,4,NA,NA,NA
-"CA2018_190_05","Rossella podagrosa",0.151,5.391,NA,NA,NA,"F"
+"CA2018_190_05","Rossella podagrosa",0.151,5.391,NA,NA,NA,NA
 "CA2018_190_06","Bryozoa",0.983,42.189,NA,NA,NA,NA
 "CA2018_190_06","Polymastia invaginata",0.021,0.901,1,NA,NA,NA
 "CA2018_190_06","Spikey",0.011,0.472,2,NA,NA,NA
@@ -2139,7 +2139,7 @@
 "CA2018_200_09","Bryozoa",2.069,56.763,NA,NA,NA,NA
 "CA2018_200_09","Finger",0.207,5.679,2,NA,NA,NA
 "CA2018_200_09","Polymastia invaginata",0.064,1.756,3,NA,NA,NA
-"CA2018_200_09","Volcano",0.644,17.668,3,NA,NA,"F"
+"CA2018_200_09","Volcano",0.644,17.668,3,NA,NA,NA
 "CA2018_200_10","Basketball",0.012,0.804,2,NA,NA,NA
 "CA2018_200_10","Bryozoa",0.766,51.722,NA,NA,NA,NA
 "CA2018_200_10","Finger",0.005,0.338,1,NA,NA,NA
@@ -2148,7 +2148,7 @@
 "CA2018_200_10","Mycale acerata",0.176,11.884,1,NA,NA,NA
 "CA2018_200_10","Spikey",0.001,0.068,1,NA,NA,NA
 "CA2018_200_10","Staghorn",0.003,0.203,1,NA,NA,NA
-"CA2018_210_01","Basketball",0.009,1.294,2,NA,NA,NA
+"CA2018_210_01","Basketball",0.009,1.294,2,NA,NA,"E"
 "CA2018_210_01","Bryozoa and Hydrozoa patch",0.32,44.902,NA,NA,NA,NA
 "CA2018_210_01","Polymastia invaginata",0.001,0.111,1,NA,NA,NA
 "CA2018_210_01","Staghorn",0.004,0.616,1,NA,NA,NA
@@ -2172,9 +2172,9 @@
 "CA2018_220_01","Spikey",0.007,1.304,1,NA,NA,NA
 "CA2018_230_01","Basketball",0.005,0.857,2,NA,NA,NA
 "CA2018_230_01","Bryozoa",0.151,24.226,NA,NA,NA,NA
-"CA2018_230_01","Isodictya erinacea",0.01,1.685,1,NA,"D",NA
+"CA2018_230_01","Isodictya erinacea",0.01,1.685,1,NA,NA,NA
 "CA2018_230_01","Polymastia invaginata",0.003,0.426,1,NA,NA,NA
-"CA2018_230_01","Rossella podagrosa",0.009,1.514,NA,NA,NA,NA
+"CA2018_230_01","Rossella podagrosa",0.009,1.514,NA,NA,"D",NA
 "CA2018_230_01","Sphaerotylus antarcticus",0.002,0.312,1,NA,NA,NA
 "CA2018_230_01","Spikey",0.003,0.52,5,NA,NA,NA
 "CA2018_230_01","Volcano",0.07,11.234,1,NA,NA,NA
@@ -2229,11 +2229,11 @@
 "CA2018_240_06","Volcano",0.146,3.888,4,NA,NA,NA
 "CA2018_250_01","Bryozoa and Hydrozoa patch",0.24,43.318,NA,NA,NA,NA
 "CA2018_250_01","Polymastia invaginata",0.012,2.239,1,NA,NA,NA
-"CA2018_250_01","Rossella podagrosa",0.026,4.769,NA,NA,NA,NA
+"CA2018_250_01","Rossella podagrosa",0.026,4.769,NA,NA,"D",NA
 "CA2018_250_01","Volcano",0.063,11.365,2,NA,NA,NA
 "CA2018_260_01","Basketball",0.009,0.956,7,NA,NA,NA
 "CA2018_260_01","Bryozoa",0.195,20.018,NA,NA,NA,NA
-"CA2018_260_01","Bryozoa and Hydrozoa patch",0.027,2.729,NA,NA,NA,NA
+"CA2018_260_01","Bryozoa and Hydrozoa patch",0.027,2.729,NA,"A",NA,NA
 "CA2018_260_01","Finger",0.001,0.119,1,NA,NA,NA
 "CA2018_260_01","Hydrozoa",0.056,5.771,NA,NA,NA,NA
 "CA2018_260_01","Polymastia invaginata",0.016,1.654,4,NA,NA,NA
@@ -2242,7 +2242,7 @@
 "CA2018_260_02","Basketball",0.014,0.977,4,NA,NA,NA
 "CA2018_260_02","Bryozoa",0.239,16.457,NA,NA,NA,NA
 "CA2018_260_02","Bryozoa and Hydrozoa patch",0.061,4.233,NA,NA,NA,NA
-"CA2018_260_02","Polymastia invaginata",0.02,1.378,6,NA,NA,"F"
+"CA2018_260_02","Polymastia invaginata",0.02,1.378,6,NA,NA,NA
 "CA2018_260_02","Rossella podagrosa",0.013,0.921,NA,NA,NA,NA
 "CA2018_260_02","Sphaerotylus antarcticus",0.001,0.055,1,NA,NA,NA
 "CA2018_260_02","Spikey",0.019,1.308,5,NA,NA,NA
@@ -2256,14 +2256,14 @@
 "CA2018_260_03","Sphaerotylus antarcticus",0.004,0.192,1,NA,NA,NA
 "CA2018_260_03","Spikey",0.026,1.308,10,NA,NA,NA
 "CA2018_270_01","Bryozoa",0.015,0.481,NA,NA,NA,NA
-"CA2018_270_01","Bryozoa and Hydrozoa patch",1.687,53.669,NA,"B",NA,NA
+"CA2018_270_01","Bryozoa and Hydrozoa patch",1.687,53.669,NA,NA,NA,NA
 "CA2018_270_01","Finger",0.073,2.318,5,NA,NA,NA
 "CA2018_270_01","Hydrozoa",0.088,2.807,NA,NA,NA,NA
 "CA2018_270_01","Polymastia invaginata",0.084,2.683,5,NA,NA,NA
 "CA2018_270_01","Rossella podagrosa",0.077,2.447,NA,NA,NA,NA
 "CA2018_270_01","Spikey",0.037,1.191,6,NA,NA,NA
 "CA2018_270_01","Volcano",0.578,18.38,5,NA,NA,NA
-"CA2018_270_02","Basketball",0.027,0.948,4,NA,NA,NA
+"CA2018_270_02","Basketball",0.027,0.948,4,NA,NA,"F"
 "CA2018_270_02","Bryozoa",0.194,6.919,NA,NA,NA,NA
 "CA2018_270_02","Bryozoa and Hydrozoa patch",0.931,33.286,NA,NA,NA,NA
 "CA2018_270_02","Polymastia invaginata",0.075,2.696,3,NA,NA,NA
@@ -2284,8 +2284,8 @@
 "CA2018_280_02","Basketball",0.016,1.441,12,NA,NA,NA
 "CA2018_280_02","Bryozoa",0.041,3.599,NA,NA,NA,NA
 "CA2018_280_02","Bryozoa and Hydrozoa patch",0.515,45.49,NA,NA,NA,NA
-"CA2018_280_02","Polymastia invaginata",0.025,2.225,2,NA,NA,"E"
-"CA2018_280_02","Volcano",0.081,7.189,1,"B",NA,NA
+"CA2018_280_02","Polymastia invaginata",0.025,2.225,2,NA,NA,NA
+"CA2018_280_02","Volcano",0.081,7.189,1,NA,NA,NA
 "CA2018_280_03","Basketball",0.015,0.519,1,NA,NA,NA
 "CA2018_280_03","Bryozoa",0.39,13.9,NA,NA,NA,NA
 "CA2018_280_03","Bryozoa and Hydrozoa patch",1.13,40.252,NA,NA,NA,NA
@@ -2294,7 +2294,7 @@
 "CA2018_280_03","Spikey",0.025,0.895,4,NA,NA,NA
 "CA2018_290_01","Basketball",0.01,1.542,5,NA,NA,NA
 "CA2018_290_01","Bryozoa",0.545,81.164,NA,NA,NA,NA
-"CA2018_290_01","Sphaerotylus antarcticus",0.002,0.254,1,"B",NA,NA
+"CA2018_290_01","Sphaerotylus antarcticus",0.002,0.254,1,NA,NA,NA
 "CA2018_290_01","Spikey",0.001,0.143,1,NA,NA,NA
 "CA2018_290_02","Basketball",0.018,0.404,1,NA,NA,NA
 "CA2018_290_02","Bryozoa",0.263,5.897,NA,NA,NA,NA
@@ -2303,7 +2303,7 @@
 "CA2018_290_02","Sphaerotylus antarcticus",0.005,0.116,1,NA,NA,NA
 "CA2018_290_02","Spikey",0.045,1.016,10,NA,NA,NA
 "CA2018_290_02","Staghorn",0.014,0.308,2,NA,NA,NA
-"CA2018_290_02","Volcano",0.067,1.501,1,NA,NA,NA
+"CA2018_290_02","Volcano",0.067,1.501,1,NA,NA,"F"
 "CA2018_290_03","Bryozoa and Hydrozoa patch",1.872,48.165,NA,NA,NA,NA
 "CA2018_290_03","Polymastia invaginata",0.052,1.328,3,NA,NA,NA
 "CA2018_290_03","Rossella podagrosa",0.022,0.574,NA,NA,NA,NA
@@ -2323,8 +2323,8 @@
 "CA2018_300_02","Spikey",0.04,2.851,6,NA,NA,NA
 "CA2018_310_01","Basketball",0.011,0.55,1,NA,NA,NA
 "CA2018_310_01","Bryozoa",0.623,30.773,NA,NA,NA,NA
-"CA2018_310_01","Finger",0.011,0.539,1,NA,"D",NA
-"CA2018_310_01","Polymastia invaginata",0.015,0.734,1,NA,NA,"F"
+"CA2018_310_01","Finger",0.011,0.539,1,NA,NA,NA
+"CA2018_310_01","Polymastia invaginata",0.015,0.734,1,NA,NA,NA
 "CA2018_310_01","Sphaerotylus antarcticus",0.002,0.109,1,NA,NA,NA
 "CA2018_310_01","Spikey",0.064,3.155,8,NA,NA,NA
 "CA2018_310_01","Volcano",0.22,10.838,3,NA,NA,NA
@@ -2348,7 +2348,7 @@
 "CA2018_320_01","Spikey",0.08,4.595,10,NA,NA,NA
 "CA2018_320_02","Basketball",0.007,0.453,2,NA,NA,NA
 "CA2018_320_02","Bryozoa",0.745,48.056,NA,NA,NA,NA
-"CA2018_320_02","Polymastia invaginata",0.001,0.035,1,"A",NA,NA
+"CA2018_320_02","Polymastia invaginata",0.001,0.035,1,NA,NA,NA
 "CA2018_320_02","Rossella podagrosa",0.009,0.556,NA,NA,NA,NA
 "CA2018_320_02","Spikey",0.036,2.336,9,NA,NA,NA
 "CA2018_320_02","Volcano",0.037,2.405,2,NA,NA,NA

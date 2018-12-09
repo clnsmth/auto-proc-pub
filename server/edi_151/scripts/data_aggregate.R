@@ -3,15 +3,10 @@
 
 message('*** AGGREGATING DATA ***')
 
-# Load dependencies -----------------------------------------------------------
-
-library(stringr)
-library(dplyr)
-
 # Parameterize ----------------------------------------------------------------
 
-path_raw <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_151\\data\\raw'
-path_processed <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_151\\data\\processed'
+path_raw <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/data/raw'
+path_processed <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/data/processed'
 
 # Read data -------------------------------------------------------------------
 

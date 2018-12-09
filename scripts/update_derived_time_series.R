@@ -3,17 +3,17 @@
 
 # Load dependencies -----------------------------------------------------------
 
-library(stringr)
-library(dplyr)
-library(XML)
-library(EDIutils)
-library(httr)
-library(EMLassemblyline)
-library(ssh)
+suppressWarnings(library(stringr))
+suppressWarnings(library(dplyr))
+suppressWarnings(library(XML))
+suppressWarnings(library(EDIutils))
+suppressWarnings(library(httr))
+suppressWarnings(library(EMLassemblyline))
+suppressWarnings(library(ssh))
 
 # Parameterize ----------------------------------------------------------------
 
-path_scripts <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_253\\scripts'
+path_scripts <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/scripts'
 usr_serv <- readline('Enter server user name: ')
 pass_serv <- readline('Enter server password: ')
 usr_pasta <- readline('Enter PASTA+ user name: ')

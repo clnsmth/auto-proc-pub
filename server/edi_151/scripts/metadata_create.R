@@ -3,18 +3,11 @@
 
 message('*** CREATING EML METADATA ***')
 
-# Load dependencies -----------------------------------------------------------
-
-library(EDIutils)
-library(stringr)
-library(httr)
-library(EMLassemblyline)
-
 # Parameterize ----------------------------------------------------------------
 
-path_templates <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_151\\metadata_templates'
-path_data <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_151\\data\\processed'
-path_eml <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_151\\eml'
+path_templates <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/metadata_templates'
+path_data <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/data/processed'
+path_eml <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/eml'
 file_names <- c("taxa_counts.csv", "taxa_photos.csv")
 pkg_identifier <- 'edi.151'
 environment <- 'staging'

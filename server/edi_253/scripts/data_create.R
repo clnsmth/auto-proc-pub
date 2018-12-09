@@ -8,7 +8,7 @@ message('*** CREATING DERIVED DATA ***')
 pkg_identifier <- 'edi.151' # parent package scope and ID
 environment <- 'staging'
 affiliation <- 'LTER'
-path_processed <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_253\\data'
+path_processed <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/data'
 
 # Read parent data ------------------------------------------------------------
 
