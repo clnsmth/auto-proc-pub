@@ -1,0 +1,7 @@
+attributeName	code	definition
+Area_flag	A	High uncertainty in area estimate
+Area_flag	B	Non-standard methods used
+PctCov_flag	C	Unreliable estimate
+PctCov_flag	D	Non-standard methods used
+Count_flag	F	Non-reliable data
+Count_flag	E	High uncertainty in count estimate

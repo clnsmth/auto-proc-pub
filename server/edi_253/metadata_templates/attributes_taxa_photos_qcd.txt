@@ -3,3 +3,5 @@ PhotoID	"Photo ID from SCUBA or ROV transect; 1 photo = 1 sample; ID is coded. O
 Depth	Water depth for that particular photo replicate of that depth transect	numeric	foot			
 PhotoArea	Areal coverage of the particular photo replicate	numeric	squareMeter			
 Year	Year of data collection	Date		YYYY		
+Depth_flag	Quality control flag	categorical			NA	No quality control flag present
+PhotoArea_flag	Quality control flag	categorical			NA	No quality control flag present

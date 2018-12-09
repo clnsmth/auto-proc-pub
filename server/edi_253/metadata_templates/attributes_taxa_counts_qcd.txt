@@ -4,3 +4,6 @@ Species	Species name or nickname given to a particular taxa identified in the ph
 Area	Areal coverage of the organism in the Species column	numeric	squareMeter			
 PctCov	Percent cover of the organism in the Species column; determined by dividing organism areal coverage by photo areal coverage and multiplying by 100	numeric	dimensionless			
 Count	Individual organism counts per photo	numeric	dimensionless		NA	Empty count. For organisms that are colonial. Organisms that have an NA for count cannot be counted individually as they form a mass or colony of interlinked organisms.
+Area_flag	Quality control flag	categorical			NA	No quality control flag present
+PctCov_flag	Quality control flag	categorical			NA	No quality control flag present
+Count_flag	Quality control flag	categorical			NA	No quality control flag present

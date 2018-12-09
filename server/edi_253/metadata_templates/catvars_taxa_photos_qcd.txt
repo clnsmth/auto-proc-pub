@@ -1,0 +1,5 @@
+attributeName	code	definition
+Depth_flag	H	Sampling depth greater than sounding depth
+Depth_flag	G	Sampling depth less than sounding depth
+PhotoArea_flag	I	Photograph unreadable
+PhotoArea_flag	J	Photograph is not of specified site

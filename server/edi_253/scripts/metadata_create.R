@@ -3,13 +3,6 @@
 
 message('*** CREATING EML METADATA ***')
 
-# Load dependencies -----------------------------------------------------------
-
-library(EDIutils)
-library(stringr)
-library(httr)
-library(EMLassemblyline)
-
 # Parameterize ----------------------------------------------------------------
 
 path_templates <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_253\\metadata_templates'

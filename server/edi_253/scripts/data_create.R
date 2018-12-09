@@ -3,20 +3,11 @@
 
 message('*** CREATING DERIVED DATA ***')
 
-# Load dependencies -----------------------------------------------------------
-
-library(stringr)
-library(dplyr)
-library(XML)
-library(EDIutils)
-library(httr)
-
 # Parameterize ----------------------------------------------------------------
 
 pkg_identifier <- 'edi.151' # parent package scope and ID
 environment <- 'staging'
 affiliation <- 'LTER'
-# path_raw <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_151\\data\\raw'
 path_processed <- 'C:\\Users\\Colin\\Documents\\EDI\\r\\auto-proc-pub\\server\\edi_253\\data'
 
 # Read parent data ------------------------------------------------------------
@@ -61,13 +52,26 @@ photos <- read.csv(
 
 # Process data ----------------------------------------------------------------
 
+# Randomly assign QC flags to data (a simulation of actual QC procedures)
+
 message('Applying Quality Control methods')
 
-# counts <- lapply(paste0(path_raw, '/', files_counts), read.csv, as.is = TRUE)
-# counts <- dplyr::bind_rows(counts)
-# 
-# photos <- lapply(paste0(path_raw, '/', files_photos), read.csv, as.is = TRUE)
-# photos <- dplyr::bind_rows(photos)
+counts$Area_flag <- rep(NA_character_, nrow(counts))
+counts$Area_flag[sample(nrow(counts), 10)] <- 'A'
+counts$Area_flag[sample(nrow(counts), 10)] <- 'B'
+counts$PctCov_flag <- rep(NA_character_, nrow(counts))
+counts$PctCov_flag[sample(nrow(counts), 10)] <- 'C'
+counts$PctCov_flag[sample(nrow(counts), 10)] <- 'D'
+counts$Count_flag <- rep(NA_character_, nrow(counts))
+counts$Count_flag[sample(nrow(counts), 10)] <- 'E'
+counts$Count_flag[sample(nrow(counts), 10)] <- 'F'
+
+photos$Depth_flag <- rep(NA_character_, nrow(photos))
+photos$Depth_flag[sample(nrow(photos), 10)] <- 'G'
+photos$Depth_flag[sample(nrow(photos), 10)] <- 'H'
+photos$PhotoArea_flag <- rep(NA_character_, nrow(photos))
+photos$PhotoArea_flag[sample(nrow(photos), 10)] <- 'I'
+photos$PhotoArea_flag[sample(nrow(photos), 10)] <- 'J'
 
 # Write data to file ----------------------------------------------------------
 

@@ -3,17 +3,8 @@
 
 message('*** UPLOADING DATA PACKAGE TO EDI ***')
 
-# Load dependencies -----------------------------------------------------------
-
-library(ssh)
-library(httr)
-
 # Parameterize ----------------------------------------------------------------
 
-# usr_serv <- readline('Enter server user name: ')
-# pass_serv <- readline('Enter server password: ')
-# usr_pasta <- readline('Enter PASTA+ user name: ')
-# pass_pasta <- readline('Enter PASTA+ password: ')
 environment <- 'staging'
 affiliation <- 'LTER'
 
