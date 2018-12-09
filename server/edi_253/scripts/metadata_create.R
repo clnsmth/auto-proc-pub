@@ -32,13 +32,17 @@ revision <- httr::content(r, encoding = 'UTF-8')
 revision <- as.character(as.numeric(revision) + 1)
 package_id <- paste0(pkg_identifier, '.', revision)
 
+# Get newest provenance package revision number -------------------------------
+
+sir <- stringr::str_replace_all(sir, '/', '\\.')
+
 # Make EML --------------------------------------------------------------------
 
 make_eml(
   path = path_templates,
   data.path = path_data,
   eml.path = path_eml,
-  dataset.title = 'McMurdo Sound, Antarctica: Cape Armitage, sponge abundance and cover and photo ID information',
+  dataset.title = 'McMurdo Sound, Antarctica: Cape Armitage, sponge abundance and cover and photo ID information: Quality controlled',
   data.files = file_names,
   data.files.description = c('Benthic invertebrate photo metadata of McMurdo Sound, Antarctica',
                              'Benthic invertebrates of McMurdo Sound, Antarctica'),
@@ -49,7 +53,9 @@ make_eml(
   maintenance.description = 'Ongoing',
   user.id = usr_pasta,
   affiliation = affiliation,
-  package.id = package_id
+  package.id = package_id,
+  environment = 'staging',
+  provenance = sir
 )
 
 message('*** DONE ***\n\n')

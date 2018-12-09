@@ -45,7 +45,7 @@ make_eml(
   path = path_templates,
   data.path = path_data,
   eml.path = path_eml,
-  dataset.title = 'McMurdo Sound, Antarctica: Cape Armitage, sponge abundance and cover and photo ID information',
+  dataset.title = 'McMurdo Sound, Antarctica: Cape Armitage, sponge abundance and cover and photo ID information: Raw data',
   data.files = file_names,
   data.files.description = c('Benthic invertebrate photo metadata of McMurdo Sound, Antarctica',
                              'Benthic invertebrates of McMurdo Sound, Antarctica'),
