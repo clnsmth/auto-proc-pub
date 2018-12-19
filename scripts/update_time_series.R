@@ -14,12 +14,12 @@ library(httr)
 # Parameterize ----------------------------------------------------------------
 
 # User name and password for server from which EDI will download your data
-usr_serv <- 'csmith'
-pass_serv <- 'csmith'
+usr_serv <- ''
+pass_serv <- ''
 
 # User name and password for EDI repository account
-usr_pasta <- 'csmith'
-pass_pasta <- '10qp29wo'
+usr_pasta <- ''
+pass_pasta <- ''
 
 # Affiliation of EDI repo account. Can be 'EDI' or 'LTER'
 affiliation <- 'EDI'
