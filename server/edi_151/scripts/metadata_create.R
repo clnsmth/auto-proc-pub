@@ -5,18 +5,15 @@ message('*** CREATING EML METADATA ***')
 
 # Parameterize ----------------------------------------------------------------
 
+# Path to metadata templates located at ~/server/edi_151/metadata_templates
 path_templates <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/metadata_templates'
-path_data <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/data/processed'
+
+# Path to where the EML file will be written, ~/server/edi_151/eml
 path_eml <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/eml'
-file_names <- c("taxa_counts.csv", "taxa_photos.csv")
-pkg_identifier <- 'edi.151'
-environment <- 'staging'
-usr_pasta <- 'csmith'
-affiliation <- 'LTER'
 
 # Get new temporal coverage ---------------------------------------------------
 
-x <- read.csv(paste0(path_data, '/taxa_photos.csv'))
+x <- read.csv(paste0(path_processed, '/taxa_photos.csv'))
 temporal_coverage <- c(
   paste0(as.character(min(x$Year)), '-01-01'),
   paste0(as.character(max(x$Year)), '-01-01')
@@ -36,10 +33,10 @@ package_id <- paste0(pkg_identifier, '.', revision)
 
 make_eml(
   path = path_templates,
-  data.path = path_data,
+  data.path = path_processed,
   eml.path = path_eml,
   dataset.title = 'McMurdo Sound, Antarctica: Cape Armitage, sponge abundance and cover and photo ID information: Raw data',
-  data.files = file_names,
+  data.files = c("taxa_counts.csv", "taxa_photos.csv"),
   data.files.description = c('Benthic invertebrate photo metadata of McMurdo Sound, Antarctica',
                              'Benthic invertebrates of McMurdo Sound, Antarctica'),
   data.files.url = 'https://lter.limnology.wisc.edu/sites/default/files/data/edi/tests/edi_151/data/processed',

@@ -5,16 +5,20 @@ message('*** UPLOADING DATA PACKAGE TO EDI ***')
 
 # Parameterize ----------------------------------------------------------------
 
-environment <- 'staging'
-affiliation <- 'LTER'
+serv_name <- '@lter.limnology.wisc.edu' # Name of the server to which 'usr_serv' will be prepended (e.g. @lter.limnology.wisc.edu)
+
+# Below are a series of paths that you'll need to configure for your workflow. See
+# function documentation for argument definitions.
 
 # Upload data and metadata to server ------------------------------------------
 
+# Connect to server
 con <- ssh::ssh_connect(
-  paste0(usr_serv, '@lter.limnology.wisc.edu'),
+  paste0(usr_serv, serv_name),
   passwd = pass_serv
 )
 
+# Upload data tables
 ssh::scp_upload(
   session = con,
   files = c('/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/data/processed/taxa_photos.csv',
@@ -23,6 +27,7 @@ ssh::scp_upload(
   verbose = F
 )
 
+# Upload EML file
 ssh::scp_upload(
   session = con,
   files = paste0('/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/eml',
@@ -31,6 +36,7 @@ ssh::scp_upload(
   verbose = F
 )
 
+# Disconnect
 ssh::ssh_disconnect(con)
 
 # Upload to EDI ---------------------------------------------------------------

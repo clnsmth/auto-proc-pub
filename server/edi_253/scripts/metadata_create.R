@@ -1,7 +1,7 @@
 
 # Create EML for time series update
 
-message('*** CREATING EML METADATA ***')
+# message('*** CREATING EML METADATA ***')
 
 # Parameterize ----------------------------------------------------------------
 
@@ -38,7 +38,7 @@ sir <- stringr::str_replace_all(sir, '/', '\\.')
 
 # Make EML --------------------------------------------------------------------
 
-make_eml(
+suppressMessages(make_eml(
   path = path_templates,
   data.path = path_data,
   eml.path = path_eml,
@@ -56,6 +56,6 @@ make_eml(
   package.id = package_id,
   environment = 'staging',
   provenance = sir
-)
+))
 
-message('*** DONE ***\n\n')
+# message('*** DONE ***\n\n')

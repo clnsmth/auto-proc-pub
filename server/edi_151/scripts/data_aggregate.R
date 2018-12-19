@@ -5,7 +5,10 @@ message('*** AGGREGATING DATA ***')
 
 # Parameterize ----------------------------------------------------------------
 
+# Path to raw data located at ~/server/edi_151/data/raw
 path_raw <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/data/raw'
+
+# Path to processed data located at ~/server/edi_151/data/processed
 path_processed <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_151/data/processed'
 
 # Read data -------------------------------------------------------------------

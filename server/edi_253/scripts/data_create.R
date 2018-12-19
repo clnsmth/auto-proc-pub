@@ -1,7 +1,7 @@
 
 # Get parent data from EDI, process, and write to file
 
-message('*** CREATING DERIVED DATA ***')
+# message('*** CREATING DERIVED DATA ***')
 
 # Parameterize ----------------------------------------------------------------
 
@@ -12,7 +12,7 @@ path_processed <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/da
 
 # Read parent data ------------------------------------------------------------
 
-message('Reading data')
+# message('Reading data')
 
 # Get newest package ID
 
@@ -54,7 +54,7 @@ photos <- read.csv(
 
 # Randomly assign QC flags to data (a simulation of actual QC procedures)
 
-message('Applying Quality Control methods')
+# message('Applying Quality Control methods')
 
 counts$Area_flag <- rep(NA_character_, nrow(counts))
 counts$Area_flag[sample(nrow(counts), 10)] <- 'A'
@@ -75,9 +75,9 @@ photos$PhotoArea_flag[sample(nrow(photos), 10)] <- 'J'
 
 # Write data to file ----------------------------------------------------------
 
-message('Writing to file')
+# message('Writing to file')
 
 write.csv(counts, paste0(path_processed, '/taxa_counts_qcd.csv'), row.names = FALSE)
 write.csv(photos, paste0(path_processed, '/taxa_photos_qcd.csv'), row.names = FALSE)
 
-message('*** DONE ***\n\n')
+# message('*** DONE ***\n\n')
