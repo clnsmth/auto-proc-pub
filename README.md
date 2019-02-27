@@ -1,5 +1,5 @@
 # auto-proc-pub
-Archiving data of an ongoing time series, or data derived from such a time series, requires standard processes that can be automated, thereby decreasing manual workload and improving accuracy and efficency. `auto-proc-pub` contains a example automated data processing and archiving workflows using the [`Environmental Data Initiative (EDI) Data Repository`](https://portal.edirepository.org/nis/home.jsp) and the [`EMLassemblyline`](https://github.com/EDIorg/EMLassemblyline) and [`EDIutils`](https://github.com/EDIorg/EDIutils) R libraries.
+Archiving data of an ongoing time series, or data derived from such a time series, requires standard processes that can be automated, thereby decreasing manual workload and improving accuracy and efficency. `auto-proc-pub` contains example automated data processing and archiving workflows using the [`Environmental Data Initiative (EDI) Data Repository`](https://portal.edirepository.org/nis/home.jsp) and the [`EMLassemblyline`](https://github.com/EDIorg/EMLassemblyline) and [`EDIutils`](https://github.com/EDIorg/EDIutils) R libraries.
 
 ## Contents:
 
