@@ -51,7 +51,7 @@ package.id <- 'edi.151'
 
 # Name of project server that will be appended to user.serv (e.g. server.name = @some.server.org)
 
-server.name <- '@some.server.org' 
+server.name <- '@colin.edirepository.org' 
 
 # Path to raw data on project server
 
@@ -123,6 +123,7 @@ message('Connecting to server')
 con <- ssh::ssh_connect(
   paste0(
     server.user.name, 
+    '@',
     server.name
   ),
   passwd = server.user.pass

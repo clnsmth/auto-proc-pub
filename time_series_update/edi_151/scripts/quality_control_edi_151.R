@@ -10,6 +10,7 @@
 con <- ssh::ssh_connect(
   paste0(
     server.user.name, 
+    '@',
     server.name
   ),
   passwd = server.user.pass
