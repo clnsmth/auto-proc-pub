@@ -83,11 +83,9 @@ pasta.user.name <- readline('Enter EDI user name: ')
 pasta.user.pass <- readline('Enter EDI user password: ')
 pasta.affiliation <- readline('Enter EDI user affiliation (LTER or EDI): ')
 
-# Environment of EDI Data Repository to create the revision in. Can be:
-# 'staging' (non-public and stable, good place for testing)
-# 'production' (public and stable, final versions should be published here)
+# Environment of EDI Data Repository to create the revision in.
 
-pasta.environment <- readline('Enter EDI environment to publish to (staging or production): ')
+pasta.environment <- 'staging'
 
 
 
