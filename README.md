@@ -3,17 +3,29 @@ Archiving data of an ongoing time series, or data derived from such a time serie
 
 ## Contents:
 
-### ~/scripts
-Scripts for automated workflows, each of which calls on dataset specific files contained in ~/server.
-1. `update_time_series.R` - Aggregates data, performs quality control, creates EML metadata, uploads to server, and archives EDI Data Package `edi.151`. 
-2. `update_derived_time_series.R` - Uses PASTA+ event notifications to update data package `edi.253` everytime `edi.151` is updated. __This script is under development and not ready for use.__
+* [Time series update](#time-series-update)
+* [Derived time series update](#derived-time-series-update)
 
-### ~/server
-Dataset directories containing the subdirectories:
-* __~/data__ Data files
-* __~/EML__ EML files output by `EMLassemblyline`
-* __~/metadata_templates__ Metadata template files input to `EMLassemblyline`
-* __~/scripts__ Scripts for running sub-processes (e.g. data QC, EML creation, upload to EDI, etc.)
+### Time series update
 
-### index.php
-A script controlling server-side processing of the derived time series data package `edi.253`. This script is executed by event notifications sent to the server by the EDI Data Repository everytime `edi.151` is updated. __This script is under development and not ready for use.__
+Example workflow for time series data in which the following tasks are performed:
+
+1. Download raw time series data files from project server
+2. Aggregate raw data files into a single file
+3. Run quality control checks on aggregated data
+4. Download metadata templates configured for aggregated data from project server
+5. Update the EML metadata file for the aggregated data
+6. Upload the new EML file and aggregated data to the project server
+7. Upload the new EML file and aggregated data to EDI
+
+To run this example save the script `~/time_series_update/edi_151/scripts/update_edi_151.R` to your local workspace, upload the directory `~/time_series_update` to your server, then follow instructions in `update_edi_151.R` to configure this script for your own testing. NOTE: You will need an EDI Data Repository account to run this workflow. Contact `info@environmentaldatainitiative.org` to get one.
+
+Contents of `~/time_series_update`:
+* __/data__ Raw and processed data files
+* __/EML__ EML files output by the workflow
+* __/metadata_templates__ Metadata template files configured for the processed data
+* __/scripts__ Scripts for running this workflow
+
+### Derived time series update
+
+Uses PASTA+ event notifications to update data package `edi.253` everytime `edi.151` is updated. __This workflow is under development and not ready for use.__
