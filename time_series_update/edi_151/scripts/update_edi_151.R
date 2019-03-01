@@ -18,9 +18,9 @@
 
 # Install and load CRAN packages
 
-install.packages('devtools')
-install.packages('stringr')
-install.packages('ssh')
+# install.packages('devtools')
+# install.packages('stringr')
+# install.packages('ssh')
 
 library(devtools)
 library(stringr)
@@ -28,8 +28,8 @@ library(ssh)
 
 # Install and load GitHub packages
 
-devtools::install_github('EDIorg/EDIutils')
-devtools::install_github('EDIorg/EMLassemblyline')
+# devtools::install_github('EDIorg/EDIutils')
+# devtools::install_github('EDIorg/EMLassemblyline')
 
 library(EDIutils)
 library(EMLassemblyline)
@@ -53,37 +53,15 @@ package.id <- 'edi.151'
 
 server.name <- '@colin.edirepository.org' 
 
-# Path to raw data on project server
+# Path to data package edi_151 files on project server
 
-server.path.raw <- '/project/server/data/raw'
+server.path <- '/auto-proc-pub/time_series_update'
 
-# Path to where processed data will be written on project server
+# Path to where edi_151 files will be written locally for processing
 
-server.path.processed <- '/project/server/data/processed'
+local.path <- 'C:/Users/Colin/Documents/EDI/data_sets/auto-proc-pub/time_series_update'
 
-# Path to metadata templates on project server
 
-server.path.metadata.templates <- '/project/server/metadata_templateds'
-
-# Path to where new EML will be written on project server
-
-server.path.eml <- '/project/server/eml'
-
-# Local path to where raw data will be written for further processing
-
-local.path.raw <- '/project/local/data/raw'
-
-# Local path to where raw data will be written for further processing
-
-local.path.processed <- '/project/local/data/processed'
-
-# Local path to where metadata templates will be written for EMLassemblyline access
-
-local.path.metadata.templates <- '/project/local/metadata_templateds'
-
-# Local path to where new EML will be written
-
-local.path.eml <- '/project/local/eml'
 
 
 # Begin workflow --------------------------------------------------------------
@@ -135,22 +113,8 @@ message('Downloading raw data')
 
 ssh::scp_download(
   session = con,
-  files = server.path.raw,
-  to = local.path.raw, 
-  verbose = F
-)
-
-
-
-
-# Download metadata templates from project server -----------------------------
-
-message('Downloading metadata template files')
-
-ssh::scp_download(
-  session = con,
-  files = server.path.metadata.templates,
-  to = local.path.metadata.templates, 
+  files = server.path,
+  to = local.path, 
   verbose = F
 )
 
@@ -159,26 +123,94 @@ ssh::scp_download(
 
 # Aggregate the raw data files into a single file -----------------------------
 
-# Read raw data files from local.path.raw (ADD YOUR DATA READING CODE HERE)
-
-message('Reading raw data')
-
-# Aggregate raw data (ADD YOUR DATA AGGREGATION CODE HERE)
+# Aggregate raw data from local.path
 
 message('Aggregating raw data')
+
+files_raw <- list.files(
+  paste0(
+    local.path,
+    '/edi_151/data/raw'
+  )
+)
+
+files_counts <- files_raw[
+  stringr::str_detect(
+    files_raw,
+    'taxa_counts'
+  )
+]
+
+files_photos <- files_raw[
+  stringr::str_detect(
+    files_raw,
+    'taxa_photos'
+  )
+]
+
+counts <- lapply(
+  paste0(
+    local.path,
+    '/edi_151/data/raw',
+    '/',
+    files_counts
+  ), 
+  read.csv, 
+  as.is = TRUE
+)
+
+counts <- dplyr::bind_rows(counts)
+
+photos <- lapply(
+  paste0(
+    local.path,
+    '/edi_151/data/raw',
+    '/',
+    files_photos
+  ), 
+  read.csv, 
+  as.is = TRUE
+)
+
+photos <- dplyr::bind_rows(photos)
 
 
 
 
 # Run quality control checks on the aggregated data ---------------------------
 
-# Run quality control (ADD YOUR QUALITY CONTROL CODE HERE)
+# Run quality control
 
-message('Running quality control measures')
+message('Running quality control checks')
+
+source(
+  paste0(
+    local.path,
+    '/edi_151/scripts/quality_control_edi_151.R'
+  )
+)
 
 # Write aggregated and QC'd data to local.path.processed (ADD YOUR DATA WRITING CODE HERE)
 
 message('Writing processed data to file')
+
+write.csv(
+  counts, 
+  paste0(
+    local.path,
+    '/edi_151/data/processed/taxa_counts.csv'
+  ), 
+  row.names = FALSE
+)
+
+write.csv(
+  photos, 
+  paste0(
+    local.path,
+    '/edi_151/data/processed/taxa_photos.csv'
+  ), 
+  row.names = FALSE
+)
 
 
 
@@ -187,13 +219,13 @@ message('Writing processed data to file')
 
 message('Creating new EML')
 
-# Extract temporal coverage from data (NOTE: New temporal coverage needs to be
-# added to the EML if the temporal coverage of the data change)
+# Because the temporal coverage of the dataset is expanding with the time series
+# update, we need to extract the temporal coverage range from data.
 
 x <- read.csv(
   paste0(
-    server.path.processed,
-    '/taxa_photos.csv'
+    local.path,
+    '/edi_151/data/processed/taxa_photos.csv'
   )
 )
 
@@ -230,24 +262,16 @@ new_package_id <- paste0(package.id, '.', revision)
 
 # Create EML metadata file
 
-make_eml(
-  path = local.path.metadata.templates,
-  data.path = local.path.processed,
-  eml.path = local.path.eml,
-  dataset.title = 'McMurdo Sound, Antarctica: Cape Armitage, sponge abundance and cover and photo ID information: Raw data',
-  data.files = c(
-    "taxa_counts.csv", 
-    "taxa_photos.csv"),
-  data.files.description = c(
-    'Benthic invertebrate photo metadata of McMurdo Sound, Antarctica',
-    'Benthic invertebrates of McMurdo Sound, Antarctica'),
-  data.files.url = server.path.processed,
+EMLassemblyline::make_eml(
+  path = paste0(local.path,'/edi_151/metadata_templates'),
+  data.path = paste0(local.path,'/edi_151/data/processed'),
+  eml.path = paste0(local.path,'/edi_151/eml'),
+  dataset.title = 'McMurdo Sound, Antarctica: Cape Armitage, sponge abundance and cover and photo ID information',
+  data.files = c("taxa_counts.csv", "taxa_photos.csv"),
+  data.files.description = c('Benthic invertebrate photo metadata of McMurdo Sound, Antarctica','Benthic invertebrates of McMurdo Sound, Antarctica'),
+  data.files.url = paste0(server.path,'/edi_151/data'),
   temporal.coverage = new_temporal_coverage,
-  geographic.coordinates = c(
-    '-77.859626',
-    '166.702327',
-    '-77.863072',
-    '166.675889'),
+  geographic.coordinates = c('-77.859626', '166.702327', '-77.863072', '166.675889'),
   geographic.description = 'Cape Armitage, McMurdo Sound, Antarctica',
   maintenance.description = 'Ongoing',
   user.id = pasta.user.name,
@@ -262,12 +286,17 @@ make_eml(
 
 message('Uploading new processed data and EML to server')
 
-# Upload data tables
+# Upload the new data tables
 
 ssh::scp_upload(
   session = con,
-  files = local.path.processed,
-  to = server.path.processed, 
+  files = paste0(
+    local.path,
+    '/edi_151/data/processed'
+  ),
+  to = paste0(
+    server.path,
+    '/edi_151/data/processed'), 
   verbose = F
 )
 
@@ -276,12 +305,15 @@ ssh::scp_upload(
 ssh::scp_upload(
   session = con,
   files = paste0(
-    local.path.eml,
-    '/', 
+    local.path,
+    '/edi_151/eml/', 
     new_package_id, 
     '.xml'
   ),
-  to = server.path.eml,
+  to = paste0(
+    server.path,
+    '/edi_151/eml'
+  ),
   verbose = F
 )
 
@@ -294,8 +326,21 @@ ssh::ssh_disconnect(con)
 
 # Upload the new EML file and aggregated data to EDI --------------------------
 
+message(
+  paste0(
+    'Uploading data package ',
+    new_package_id,
+    ' to EDI.'
+  )
+)
+
 EDIutils::api_update_data_package(
-  path = local.path.eml,
+  path = paste0(
+    local.path,
+    '/edi_151/eml/', 
+    new_package_id, 
+    '.xml'
+  ),
   package.id = new_package_id,
   environment = pasta.environment,
   user.id = pasta.user.name,
