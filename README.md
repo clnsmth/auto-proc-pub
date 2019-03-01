@@ -20,7 +20,7 @@ Example workflow for time series data in which the following tasks are performed
 
 To run this example save the script `~/time_series_update/edi_151/scripts/update_edi_151.R` to your local workspace, upload the directory `~/time_series_update` to your server, then follow instructions in `update_edi_151.R` to configure this script for your own testing. NOTE: You will need an EDI Data Repository account to run this workflow. Contact `info@environmentaldatainitiative.org` to get one.
 
-Contents of `~/time_series_update`
+Contents of `~/time_series_update`:
 * __/data__ Raw and processed data files
 * __/EML__ EML files output by the workflow
 * __/metadata_templates__ Metadata template files configured for the processed data
