@@ -5,14 +5,12 @@
 
 # Parameterize ----------------------------------------------------------------
 
-environment <- 'staging'
-affiliation <- 'LTER'
 
 # Upload data and metadata to server ------------------------------------------
 
 con <- suppressMessages(ssh::ssh_connect(
-  paste0(usr_serv, '@lter.limnology.wisc.edu'),
-  passwd = pass_serv
+  paste0(server.user.name, '@lter.limnology.wisc.edu'),
+  passwd = server.user.pass
 ))
 
 suppressMessages(ssh::scp_upload(
@@ -26,7 +24,7 @@ suppressMessages(ssh::scp_upload(
 suppressMessages(ssh::scp_upload(
   session = con,
   files = paste0('/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/eml',
-                 '/', package_id, '.xml'),
+                 '/', new_package_id, '.xml'),
   to = '/var/www/lter/sites/default/files/data/edi/tests/edi_253/eml',
   verbose = F
 ))
@@ -37,11 +35,11 @@ suppressMessages(ssh::ssh_disconnect(con))
 
 suppressMessages(EDIutils::pkg_update(
   path = '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/eml',
-  package.id = package_id,
-  environment = environment,
-  user.id = usr_pasta,
-  user.pass = pass_pasta,
-  affiliation = affiliation
+  package.id = new_package_id,
+  environment = pasta.environment,
+  user.id = pasta.user.name,
+  user.pass = pasta.user.pass,
+  affiliation = pasta.affiliation
 ))
 
 # message('*** DONE ***\n')

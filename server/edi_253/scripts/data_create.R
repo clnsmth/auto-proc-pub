@@ -5,10 +5,7 @@
 
 # Parameterize ----------------------------------------------------------------
 
-pkg_identifier <- 'edi.151' # parent package scope and ID
-environment <- 'staging'
-affiliation <- 'LTER'
-path_processed <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/data'
+server.path.processed <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/data'
 
 # Read parent data ------------------------------------------------------------
 
@@ -16,18 +13,18 @@ path_processed <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/da
 
 # Get newest package ID
 
-pkg_id <- stringr::str_replace_all(pkg_identifier, '\\.', '/')
-r <- httr::GET(url = paste0(EDIutils::url_env(environment), 
+pkg_id <- stringr::str_replace_all(package.id, '\\.', '/')
+r <- httr::GET(url = paste0(EDIutils::url_env(pasta.environment), 
                             '.lternet.edu/package/eml/', 
                             pkg_id, '?filter=newest'))
 revision <- httr::content(r, encoding = 'UTF-8')
-package_id <- paste0(pkg_identifier, '.', revision)
+new_package_id <- paste0(package.id, '.', revision)
 
 # Get data identifiers
 
-sir <- stringr::str_replace_all(package_id, '\\.', '/')
+sir <- stringr::str_replace_all(new_package_id, '\\.', '/')
 
-r <- httr::GET(url = paste0(EDIutils::url_env(environment), 
+r <- httr::GET(url = paste0(EDIutils::url_env(pasta.environment), 
                             '.lternet.edu/package/name/eml/', 
                             sir))
 files <- suppressMessages(httr::content(r, type = 'text/csv', encoding = 'UTF-8'))
@@ -40,13 +37,13 @@ files <- data.frame(id = c(colnames(files)[1], files[ , 1]),
 
 use_i <- files$name == 'taxa_counts.csv'
 counts <- read.csv(
-  paste0(EDIutils::url_env(environment), '.lternet.edu/package/data/eml/', sir, 
+  paste0(EDIutils::url_env(pasta.environment), '.lternet.edu/package/data/eml/', sir, 
          '/', files$id[use_i]),
   as.is = TRUE)
 
 use_i <- files$name == 'taxa_photos.csv'
 photos <- read.csv(
-  paste0(EDIutils::url_env(environment), '.lternet.edu/package/data/eml/', sir, 
+  paste0(EDIutils::url_env(pasta.environment), '.lternet.edu/package/data/eml/', sir, 
          '/', files$id[use_i]),
   as.is = TRUE)
 
@@ -77,7 +74,7 @@ photos$PhotoArea_flag[sample(nrow(photos), 10)] <- 'J'
 
 # message('Writing to file')
 
-write.csv(counts, paste0(path_processed, '/taxa_counts_qcd.csv'), row.names = FALSE)
-write.csv(photos, paste0(path_processed, '/taxa_photos_qcd.csv'), row.names = FALSE)
+write.csv(counts, paste0(server.path.processed, '/taxa_counts_qcd.csv'), row.names = FALSE)
+write.csv(photos, paste0(server.path.processed, '/taxa_photos_qcd.csv'), row.names = FALSE)
 
 # message('*** DONE ***\n\n')

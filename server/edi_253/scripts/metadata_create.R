@@ -5,14 +5,14 @@
 
 # Parameterize ----------------------------------------------------------------
 
-path_templates <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/metadata_templates'
-path_data <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/data'
-path_eml <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/eml'
-file_names <- c("taxa_counts_qcd.csv", "taxa_photos_qcd.csv")
-pkg_identifier <- 'edi.253'
-environment <- 'staging'
-usr_pasta <- 'csmith'
-affiliation <- 'LTER'
+# path_templates <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/metadata_templates'
+# path_data <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/data'
+# path_eml <- '/Users/csmith/Documents/EDI/r/auto-proc-pub/server/edi_253/eml'
+# file_names <- c("taxa_counts_qcd.csv", "taxa_photos_qcd.csv")
+# package.id <- 'edi.253'
+# environment <- 'staging'
+# usr_pasta <- 'csmith'
+# affiliation <- 'LTER'
 
 # Get new temporal coverage ---------------------------------------------------
 
@@ -24,13 +24,13 @@ temporal_coverage <- c(
 
 # Get new package revision number ---------------------------------------------
 
-pkg_id <- stringr::str_replace_all(pkg_identifier, '\\.', '/')
-r <- httr::GET(url = paste0(EDIutils::url_env(environment), 
+pkg_id <- stringr::str_replace_all(package.id, '\\.', '/')
+r <- httr::GET(url = paste0(EDIutils::url_env(pasta.environment), 
                             '.lternet.edu/package/eml/', 
                             pkg_id, '?filter=newest'))
 revision <- httr::content(r, encoding = 'UTF-8')
 revision <- as.character(as.numeric(revision) + 1)
-package_id <- paste0(pkg_identifier, '.', revision)
+package_id <- paste0(new_package_id, '.', revision)
 
 # Get newest provenance package revision number -------------------------------
 
@@ -51,10 +51,10 @@ suppressMessages(make_eml(
   geographic.coordinates = c('-77.859626', '166.702327', '-77.863072', '166.675889'),
   geographic.description = 'Cape Armitage, McMurdo Sound, Antarctica',
   maintenance.description = 'Ongoing',
-  user.id = usr_pasta,
-  affiliation = affiliation,
-  package.id = package_id,
-  environment = 'staging',
+  user.id = pasta.user.name,
+  affiliation = pasta.affiliation,
+  package.id = new_package_id,
+  environment = pasta.environment,
   provenance = sir
 ))
 
